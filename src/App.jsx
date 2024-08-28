@@ -1,4 +1,5 @@
 import styles from './App.module.css';
+
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
 import About from './components/About/About';
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className={styles.main}>
         <Intro />
         <About />
         <MyServices />

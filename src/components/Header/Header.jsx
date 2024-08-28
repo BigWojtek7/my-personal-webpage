@@ -6,11 +6,11 @@ function Header() {
       <div className={styles.logo}>
         <p>&lt;BigWojtek7&gt;</p>
       </div>
-      <button className={styles.btnToggle}></button>
+      <button className={styles.btnToggle}>#</button>
       <nav className={styles.nav}>
         <ul className={styles.navList}>
           <li className={styles.navItem}>
-            <a href="#" className="navLink">
+            <a href="#home" className="navLink">
               Home
             </a>
           </li>
