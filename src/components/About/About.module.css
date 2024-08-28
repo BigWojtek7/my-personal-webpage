@@ -1,0 +1,16 @@
+.title{
+  margin-bottom: 0.5em;
+  font-weight: var(--fw-bold);
+}
+
+.subtitle{
+  composes: subtitle from '../Intro/Intro.module.css';
+}
+
+.about{
+  text-align: center;
+}
+
+.aboutImg{
+  box-shadow: var(--bs);
+}

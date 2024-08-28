@@ -1,0 +1,18 @@
+.title {
+  margin-bottom: 0.25em;
+  font-weight: var(--fw-reg);
+}
+.subtitle{
+  margin: 0;
+  background: var(--clr-accent);
+  text-transform: uppercase;
+  font-family: var(--ff-secondary);
+  margin-bottom: 1em;
+  padding: 0.5em;
+  display: inline-block;
+}
+
+.introImg{
+  box-shadow: var(--bs)
+}
+

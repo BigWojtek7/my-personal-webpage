@@ -13,8 +13,8 @@ function App() {
       <Header />
       <main className={styles.main}>
         <Intro />
-        <About />
         <MyServices />
+        <About />
         <MyWork />
       </main>
       <Footer />

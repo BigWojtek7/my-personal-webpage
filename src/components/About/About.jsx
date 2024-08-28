@@ -2,8 +2,8 @@ import styles from './About.module.css';
 function About() {
   return (
     <section className={styles.about} id={styles.about}>
-      <h2>Kim jestem</h2>
-      <p className={styles.profession}>Full Stack Dev</p>
+      <h2 className={styles.title}>Kim jestem</h2>
+      <p className={styles.subtitle}>Full Stack Dev  chcący się uczyć nowego</p>
       <img
         src="/images/wojtek-02.jpeg"
         alt="Me standing"

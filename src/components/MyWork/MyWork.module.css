@@ -1,0 +1,16 @@
+.myWork{
+  background-color: var(--clr-dark);
+  text-align: center;
+}
+
+.title{
+  color: var(--clr-light)
+}
+
+.subtitle{
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h3);
+  margin-bottom: 2em;
+
+}

@@ -1,0 +1,28 @@
+.myServices{
+  text-align: center;
+  background-color: var(--clr-dark);
+  background-image: url('/images/services-bg.jpg');
+  color: var(--clr-light);
+  background-size: cover;
+  margin: 0 auto;
+  /* background-blend-mode: multiply; */
+
+}
+.service{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.title{
+  margin-bottom: 1em;
+  color: var(--clr-accent);
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 2.5em;
+  background: var(--clr-accent);
+  color: var(--clr-dark);
+  font-weight: var(--fw-bold);
+}

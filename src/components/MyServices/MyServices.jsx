@@ -35,7 +35,7 @@ function MyServices() {
           </p>
         </div>
         <a href="#" className={styles.btn}>
-          My work
+          Moje portfolio
         </a>
       </div>
     </section>
