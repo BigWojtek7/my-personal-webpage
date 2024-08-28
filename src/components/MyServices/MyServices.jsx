@@ -6,7 +6,7 @@ function MyServices() {
       <hr />
       <div className={styles.services}>
         <div className={styles.service}>
-          <h3>Html Css Js</h3>
+          <h3>HTML + CSS + JS</h3>
           <p>
             W dobie popularnosci frameworkow, nie za pominanam o podstawach,
             które od lat rządzą i są filarami tworzenia stron internetowych
@@ -26,7 +26,7 @@ function MyServices() {
           </p>
         </div>
         <div className={styles.service}>
-          <h3>Node Js</h3>
+          <h3>Node Js + PostGreSQL</h3>
           <p>
             Chociaż swoją pracę koncentruję na front-end to znajomość back-end
             Node JS pomogła mi zrozumieć wiele aspektów takich jak obsługa APIs,

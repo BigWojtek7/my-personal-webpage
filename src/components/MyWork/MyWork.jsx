@@ -4,8 +4,8 @@ function MyWork() {
     <section className={styles.myWork}>
       <h2>My work</h2>
       <p>A section of my range of work</p>
-      <div className={styles.works}>
-        <div className={styles.work}>
+      <div className={styles.portfolio}>
+        <div className={styles.portfolioItem}>
           <a href="#">
             <img
               src="../../assets/images/portfolio-01.jpg"
@@ -13,7 +13,7 @@ function MyWork() {
             />
           </a>
         </div>
-        <div className={styles.work}>
+        <div className={styles.portfolioItem}>
           <a href="#">
             <img
               src="../../assets/images/portfolio-01.jpg"
@@ -21,7 +21,7 @@ function MyWork() {
             />
           </a>
         </div>
-        <div className={styles.work}>
+        <div className={styles.portfolioItem}>
           <a href="#">
             <img
               src="../../assets/images/portfolio-01.jpg"
@@ -29,7 +29,7 @@ function MyWork() {
             />
           </a>
         </div>
-        <div className={styles.work}>
+        <div className={styles.portfolioItem}>
           <a href="#">
             <img
               src="../../assets/images/portfolio-01.jpg"
@@ -37,7 +37,7 @@ function MyWork() {
             />
           </a>
         </div>
-        <div className={styles.work}>
+        <div className={styles.portfolioItem}>
           <a href="#">
             <img
               src="../../assets/images/portfolio-01.jpg"
