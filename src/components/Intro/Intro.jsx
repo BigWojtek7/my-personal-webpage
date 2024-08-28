@@ -10,7 +10,7 @@ function Intro() {
         <p>full-stack dev</p>
       </div>
       <div className={styles.introImg}>
-        <img src="../../assets/images/wojtek-01.jpeg" alt="Image of my face" />
+        <img src="/images/wojtek-01.jpeg" alt="Image of my face" />
       </div>
     </section>
   );

@@ -1,20 +1,22 @@
-
-import styles from './App.module.css'
+import styles from './App.module.css';
+import Header from './components/Header/Header';
+import Intro from './components/Intro/Intro';
+import About from './components/About/About';
+import MyServices from './components/MyServices/MyServices';
+import MyWork from './components/MyWork/MyWork';
+import Footer from './components/Footer/Footer';
 
 function App() {
-
   return (
     <>
-      <h1 className={styles.heading}>Wojciech Zagórowski</h1>
-      <p className={styles.paragraph1}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
-        exercitationem culpa architecto temporibus doloremque, et amet ipsam
-        deserunt ducimus! Illo laborum incidunt, soluta nemo praesentium
-        <span>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa non
-          saepe assumenda accusamus quaerat vitae.
-        </span>
-      </p>
+      <Header />
+      <main>
+        <Intro />
+        <About />
+        <MyServices />
+        <MyWork />
+      </main>
+      <Footer />
     </>
   );
 }

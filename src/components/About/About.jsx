@@ -5,7 +5,7 @@ function About() {
       <h2>Kim jestem</h2>
       <div className={styles.profession}>Full Stack Dev</div>
       <img
-        src="../../assets/images/wojtek-02.jpeg"
+        src="/images/wojtek-02.jpeg"
         alt="Me standing"
         className={styles.aboutImg}
       />

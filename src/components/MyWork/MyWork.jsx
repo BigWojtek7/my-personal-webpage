@@ -8,7 +8,15 @@ function MyWork() {
         <div className={styles.portfolioItem}>
           <a href="#">
             <img
-              src="../../assets/images/portfolio-01.jpg"
+              src="/images/portfolio-01.jpg"
+              alt="Screenshot of my project"
+            />
+          </a>
+        </div>
+        <div className={styles.portfolioItem}>
+          <a href="#">ń
+            <img
+              src="/images/portfolio-02.jpg"
               alt="Screenshot of my project"
             />
           </a>
@@ -16,7 +24,7 @@ function MyWork() {
         <div className={styles.portfolioItem}>
           <a href="#">
             <img
-              src="../../assets/images/portfolio-01.jpg"
+              src="/images/portfolio-03.jpg"
               alt="Screenshot of my project"
             />
           </a>
@@ -24,7 +32,7 @@ function MyWork() {
         <div className={styles.portfolioItem}>
           <a href="#">
             <img
-              src="../../assets/images/portfolio-01.jpg"
+              src="/images/portfolio-04.jpg"
               alt="Screenshot of my project"
             />
           </a>
@@ -32,15 +40,7 @@ function MyWork() {
         <div className={styles.portfolioItem}>
           <a href="#">
             <img
-              src="../../assets/images/portfolio-01.jpg"
-              alt="Screenshot of my project"
-            />
-          </a>
-        </div>
-        <div className={styles.portfolioItem}>
-          <a href="#">
-            <img
-              src="../../assets/images/portfolio-01.jpg"
+              src="/images/portfolio-01.jpg"
               alt="Screenshot of my project"
             />
           </a>
