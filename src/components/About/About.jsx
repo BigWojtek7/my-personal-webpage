@@ -1,9 +1,9 @@
 import styles from './About.module.css';
 function About() {
   return (
-    <section className={styles.about}>
+    <section className={styles.about} id={styles.about}>
       <h2>Kim jestem</h2>
-      <div className={styles.profession}>Full Stack Dev</div>
+      <p className={styles.profession}>Full Stack Dev</p>
       <img
         src="/images/wojtek-02.jpeg"
         alt="Me standing"

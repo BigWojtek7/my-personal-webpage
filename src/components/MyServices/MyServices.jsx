@@ -1,9 +1,8 @@
 import styles from './MyServices.module.css';
 function MyServices() {
   return (
-    <section className={styles.myServices}>
+    <section className={styles.myServices} id={styles.services}>
       <h2 className={styles.title}>Mój warsztat</h2>
-      <hr />
       <div className={styles.services}>
         <div className={styles.service}>
           <h3>HTML + CSS + JS</h3>

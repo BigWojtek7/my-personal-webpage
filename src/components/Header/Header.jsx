@@ -15,17 +15,17 @@ function Header() {
             </a>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className="navLink">
+            <a href="#services" className="navLink">
               My services
             </a>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className="navLink">
+            <a href="#about" className="navLink">
               About Me
             </a>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className="navLink">
+            <a href="#work" className="navLink">
               My work
             </a>
           </li>
