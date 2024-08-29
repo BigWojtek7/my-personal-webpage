@@ -3,7 +3,7 @@ function Intro() {
   return (
     <section className={styles.intro} id={styles.home}>
       <h1 className={styles.title}>
-        Cześć, jestem <br /><strong>Wojciech Zagórowski</strong>
+        Cześć, jestem <strong>Wojciech Zagórowski</strong>
       </h1>
       <p className={styles.subtitle}> full-stack dev</p>
         <img className={styles.introImg} src="/images/wojtek-01.jpeg" alt="Image of my face" />

@@ -1,8 +1,10 @@
 .title {
   margin-bottom: 0.25em;
   font-weight: var(--fw-reg);
+  word-wrap: break-word;
+  white-space: normal;
 }
-.subtitle{
+.subtitle {
   margin: 0;
   background: var(--clr-accent);
   text-transform: uppercase;
@@ -12,7 +14,45 @@
   display: inline-block;
 }
 
-.introImg{
-  box-shadow: var(--bs)
+.introImg {
+  box-shadow: var(--bs);
 }
 
+.title strong {
+  display: block;
+}
+
+/* @media(min-width:600px) and (max-width:800px){
+  .title{
+    font-size: 2rem;
+  }
+} */
+
+@media (min-width: 600px) {
+  .intro {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    column-gap: 1em;
+    grid-template-areas:
+      'image title'
+      'image subtitle';
+    grid-template-columns: min-content max-content;
+  }
+
+  .introImg {
+    grid-area: image;
+    min-width: 250px;
+    position: relative;
+    z-index: 2;
+  }
+  .subtitle {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em)
+  }
+}
