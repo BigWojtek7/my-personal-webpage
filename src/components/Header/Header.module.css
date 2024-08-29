@@ -56,9 +56,26 @@
   z-index: 1000;
 }
 
-.navVisible {
-  display: none;
+:global(.navOpen) .nav {
+  transform: translateX(0);
 }
+
+:global(.navOpen) .btnToggle {
+  position: fixed;
+}
+
+:global(.navOpen) .hamburger {
+  transform: rotate(0.625turn);
+}
+
+:global(.navOpen) .hamburger::before {
+  transform: rotate(90deg) translateX(-6px) ;
+}
+
+:global(.navOpen) .hamburger::after {
+  opacity: 0;
+}
+
 
 .hamburger {
   position: relative;
@@ -68,10 +85,11 @@
 .hamburger,
 .hamburger::before,
 .hamburger::after {
+  transition: transform 250ms ease-in-out;
   height: 3px;
   width: 2em;
   border-radius: 1px;
-  background: var(--clr-dark);
+  background: var(--clr-accent);
 }
 
 .hamburger::before,

@@ -1,7 +1,7 @@
 import styles from './Intro.module.css';
 function Intro() {
   return (
-    <section className={styles.intro} id={styles.home}>
+    <section className={styles.intro} id='home'>
       <h1 className={styles.title}>
         Cześć, jestem <strong>Wojciech Zagórowski</strong>
       </h1>

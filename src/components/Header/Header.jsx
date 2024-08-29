@@ -1,9 +1,16 @@
-import { useState } from 'react';
+
 import styles from './Header.module.css';
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
 
+
+
+  const toggleMenu = () => {
+    document.body.classList.toggle('navOpen');
+  }
+  const closeMenu = () => {
+    document.body.classList.remove('navOpen')
+  }
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
@@ -11,30 +18,30 @@ function Header() {
       </div>
       <button
         className={styles.btnToggle}
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={toggleMenu}
         aria-label="toggle navigation"
       >
         <span className={styles.hamburger}></span>
       </button>
-      <nav className={`${styles.nav} ${isOpen ? styles.navVisible : ''}`}>
+      <nav className={`${styles.nav}`}>
         <ul className={styles.navList}>
           <li className={styles.navItem}>
-            <a href="#home" className={styles.navLink}>
+            <a href="#home" className={styles.navLink} onClick={closeMenu}>
               Home
             </a>
           </li>
           <li className={styles.navItem}>
-            <a href="#services" className={styles.navLink}>
+            <a href="#services" className={styles.navLink} onClick={closeMenu}>
               My services
             </a>
           </li>
           <li className={styles.navItem}>
-            <a href="#about" className={styles.navLink}>
+            <a href="#about" className={styles.navLink} onClick={closeMenu}>
               About Me
             </a>
           </li>
           <li className={styles.navItem}>
-            <a href="#work" className={styles.navLink}>
+            <a href="#work" className={styles.navLink} onClick={closeMenu}>
               My work
             </a>
           </li>

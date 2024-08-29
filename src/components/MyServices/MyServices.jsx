@@ -1,7 +1,7 @@
 import styles from './MyServices.module.css';
 function MyServices() {
   return (
-    <section className={styles.myServices} id={styles.services}>
+    <section className={styles.myServices} id='services'>
       <h2 className={styles.title}>Mój warsztat</h2>
       <div className={styles.services}>
         <div className={styles.service}>
@@ -35,7 +35,7 @@ function MyServices() {
           </p>
         </div>
        
-      </div> <a href="#" className={styles.btn}>
+      </div> <a href="#work" className={styles.btn}>
           Moje portfolio
         </a>
     </section>

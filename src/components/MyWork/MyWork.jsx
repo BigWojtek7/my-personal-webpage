@@ -1,7 +1,7 @@
 import styles from './MyWork.module.css';
 function MyWork() {
   return (
-    <section className={styles.myWork} id={styles.work}>
+    <section className={styles.myWork} id='work'>
       <h2 className={styles.title}>Moje projekty</h2>
       <p className={styles.subtitle}>Moje wybrane projekty</p>
       <div className={styles.portfolio}>
