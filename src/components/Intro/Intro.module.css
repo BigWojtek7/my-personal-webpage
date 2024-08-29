@@ -28,9 +28,15 @@
 
 @media (min-width: 600px) {
   .intro {
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  .card {
     display: grid;
     width: min-content;
-    margin: 0 auto;
+    /* margin: 0 auto 8em; */
     column-gap: 1em;
     grid-template-areas:
       'image title'
@@ -51,6 +57,6 @@
     text-align: right;
     position: relative;
     left: -1.5em;
-    width: calc(100% + 1.5em)
+    width: calc(100% + 1.5em);
   }
 }
