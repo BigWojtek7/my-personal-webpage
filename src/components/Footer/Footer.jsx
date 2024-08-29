@@ -3,10 +3,10 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles.email}>wojtasjg@gmail.com</p>
-      <ul className={styles.linkList}>
-        <li className={styles.links}><a href="#">Icon</a></li>
-        <li className={styles.links}><a href="#">Icon</a></li>
-        <li className={styles.links}><a href="#">Icon</a></li>
+      <ul className={styles.list}>
+        <li className={styles.listItem}><a className={styles.link} href="#">Icon</a></li>
+        <li className={styles.listItem}><a className={styles.link} href="#">Icon</a></li>
+        <li className={styles.listItem}><a className={styles.link} href="#">Icon</a></li>
       </ul>
     </footer>
   );
