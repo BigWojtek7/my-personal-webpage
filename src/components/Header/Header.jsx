@@ -1,16 +1,13 @@
-
+import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 
 function Header() {
-
-
-
   const toggleMenu = () => {
     document.body.classList.toggle('navOpen');
-  }
+  };
   const closeMenu = () => {
-    document.body.classList.remove('navOpen')
-  }
+    document.body.classList.remove('navOpen');
+  };
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
@@ -26,24 +23,28 @@ function Header() {
       <nav className={`${styles.nav}`}>
         <ul className={styles.navList}>
           <li className={styles.navItem}>
-            <a href="#home" className={styles.navLink} onClick={closeMenu}>
+            <Link to="/#home" className={styles.navLink} onClick={closeMenu}>
               Home
-            </a>
+            </Link>
           </li>
           <li className={styles.navItem}>
-            <a href="#services" className={styles.navLink} onClick={closeMenu}>
+            <Link
+              to="/#services"
+              className={styles.navLink}
+              onClick={closeMenu}
+            >
               My services
-            </a>
+            </Link>
           </li>
           <li className={styles.navItem}>
-            <a href="#about" className={styles.navLink} onClick={closeMenu}>
+            <Link to="/#about" className={styles.navLink} onClick={closeMenu}>
               About Me
-            </a>
+            </Link>
           </li>
           <li className={styles.navItem}>
-            <a href="#work" className={styles.navLink} onClick={closeMenu}>
+            <Link to="/#work" className={styles.navLink} onClick={closeMenu}>
               My work
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
