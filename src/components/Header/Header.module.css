@@ -4,6 +4,8 @@
 .logo p {
   max-width: 150px;
   margin: 0;
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-h3);
 }
 .header {
   display: flex;
@@ -52,8 +54,8 @@
   background: transparent;
   cursor: pointer;
   position: absolute;
-  right: 1em;
-  top: 1em;
+  right: 2em;
+  top: 1.5em;
   z-index: 1000;
 }
 

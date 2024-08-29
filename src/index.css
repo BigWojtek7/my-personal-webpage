@@ -5,8 +5,9 @@
 }
 
 :root {
-  --ff-primary: 'Source Sans Pro', sans-serif;
+  --ff-primary: 'Roboto', sans-serif;
   --ff-secondary: 'Source Code Pro', monospace;
+  --ff-header: 'Oswald', 'sans-serif';
 
   --fw-reg: 300;
   --fw-bold: 900;

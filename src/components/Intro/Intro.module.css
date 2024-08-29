@@ -1,6 +1,7 @@
 .title {
   margin-bottom: 0.25em;
   font-weight: var(--fw-reg);
+  font-family: var(--ff-primary);
 }
 .subtitle {
   margin: 0;
@@ -31,12 +32,13 @@
     height: calc(100vh - 65px);
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0;
   }
   .card {
     display: grid;
     width: min-content;
-    /* margin: 0 auto 8em; */
+    margin-bottom: 5em;
     column-gap: 1em;
     grid-template-areas:
       'image title'

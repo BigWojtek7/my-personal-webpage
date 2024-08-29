@@ -9,7 +9,7 @@ function Header() {
     document.body.classList.remove('navOpen');
   };
   return (
-    <header className={styles.header}>
+    <header className={styles.header} id="home">
       <div className={styles.logo}>
         <p>&lt;BigWojtek7&gt;</p>
       </div>
