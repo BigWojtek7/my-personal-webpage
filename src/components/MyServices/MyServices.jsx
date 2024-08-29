@@ -25,7 +25,7 @@ function MyServices() {
           </p>
         </div>
         <div className={styles.service}>
-          <h3>Node Js + PostGreSQL</h3>
+          <h3>Node Js + SQL</h3>
           <p>
             Chociaż swoją pracę koncentruję na front-end to znajomość back-end
             Node JS pomogła mi zrozumieć wiele aspektów takich jak obsługa APIs,
@@ -34,10 +34,10 @@ function MyServices() {
             bardziej jasnych przy projektowaniu stron client side.
           </p>
         </div>
-        <a href="#" className={styles.btn}>
+       
+      </div> <a href="#" className={styles.btn}>
           Moje portfolio
         </a>
-      </div>
     </section>
   );
 }
