@@ -1,8 +1,6 @@
 .title {
   margin-bottom: 0.25em;
   font-weight: var(--fw-reg);
-  word-wrap: break-word;
-  white-space: normal;
 }
 .subtitle {
   margin: 0;
