@@ -1,0 +1,11 @@
+.projectIndividual{
+  padding: 0 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.projectIndividual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}

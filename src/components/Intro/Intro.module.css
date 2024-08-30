@@ -6,7 +6,7 @@
 .subtitle {
   margin: 0;
   background: var(--clr-accent);
-  font-size: var(--fs-h3);
+  /* font-size: var(--fs-h3); */
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
   padding: 0.25em 1em;
@@ -38,7 +38,7 @@
   .card {
     display: grid;
     width: min-content;
-    margin-bottom: 5em;
+    margin-bottom: 3.5em;
     column-gap: 1em;
     grid-template-areas:
       'image title'

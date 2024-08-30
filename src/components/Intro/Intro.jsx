@@ -1,17 +1,13 @@
 import styles from './Intro.module.css';
-function Intro() {
+function Intro({ title, name, subtitle, imageSrc, imageAlt, style }) {
   return (
-    <section className={styles.intro}>
+    <section className={styles.intro} style={style}>
       <div className={styles.card}>
         <h1 className={styles.title}>
-          Cześć, jestem <strong>Wojciech Zagórowski</strong>
+          {title} <strong>{name}</strong>
         </h1>
-        <p className={styles.subtitle}> full-stack dev</p>
-        <img
-          className={styles.introImg}
-          src="/images/wojtek-01.jpeg"
-          alt="Image of my face"
-        />
+        <p className={styles.subtitle}>{subtitle}</p>
+        <img className={styles.introImg} src={imageSrc} alt={imageAlt} />
       </div>
     </section>
   );
