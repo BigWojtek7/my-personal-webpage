@@ -1,11 +1,14 @@
 import styles from './MyWork.module.css';
 import { Link } from 'react-router-dom';
+import projectsArray from '../../assets/projects/projects';
+
 function MyWork() {
   return (
     <section className={styles.myWork} id='work'>
       <h2 className={styles.title}>Moje projekty</h2>
       <p className={styles.subtitle}>Moje wybrane projekty</p>
       <div className={styles.portfolio}>
+        
         <Link to='/projects/1' className={styles.portfolioItem}>
           <img
             className={styles.portfolioImg}
