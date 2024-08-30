@@ -24,7 +24,7 @@ function Header() {
         <ul className={styles.navList}>
           <li className={styles.navItem}>
             <Link to="/#home" className={styles.navLink} onClick={closeMenu}>
-              Home
+              Strona główna
             </Link>
           </li>
           <li className={styles.navItem}>
@@ -33,17 +33,17 @@ function Header() {
               className={styles.navLink}
               onClick={closeMenu}
             >
-              My services
+              Mój warsztat
             </Link>
           </li>
           <li className={styles.navItem}>
             <Link to="/#about" className={styles.navLink} onClick={closeMenu}>
-              About Me
+              O mnie
             </Link>
           </li>
           <li className={styles.navItem}>
             <Link to="/#work" className={styles.navLink} onClick={closeMenu}>
-              My work
+              Portfolio
             </Link>
           </li>
         </ul>

@@ -1,13 +1,39 @@
-import styles from './ProjectIndividual.module.css'
+import styles from './ProjectIndividual.module.css';
 
-function ProjectIndividual() {
+function ProjectIndividual({
+  descriptionIntro,
+  descriptionBody,
+  descriptionEnding,
+  imageUrl,
+  imageAlt,
+  githubUrl,
+}) {
   return (
     <div className={styles.projectIndividual}>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt earum sint dolor, debitis exercitationem aperiam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum tempora aperiam earum totam. </p>
-      <img src="/images/portfolio-details.jpg" alt="item details" />
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel atque cupiditate impedit animi provident amet dolor quod alias quaerat.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore adipisci nihil accusamus facilis eum excepturi optio pariatur? Fugit, deleniti quibusdam.</p>
+      <p>{descriptionIntro}</p>
+      <img src={imageUrl} alt={imageAlt} />
+      <p>{descriptionBody}</p>
+      <p>{descriptionEnding}</p>
+      <div className={styles.githubLinks}>
+        <p>Linki do projektu na gitHub:</p>
+        <a
+          href={githubUrl.frontend}
+          className={styles.btn}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Frontend
+        </a>
+        <a
+          href={githubUrl.backend}
+          className={styles.btn}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Backend
+        </a>
+      </div>
     </div>
-  )
+  );
 }
-export default ProjectIndividual
+export default ProjectIndividual;

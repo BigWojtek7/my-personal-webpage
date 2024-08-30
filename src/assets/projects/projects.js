@@ -1,17 +1,92 @@
 const projectsArray = [
   {
     id: 1,
-    project_name: 'The friendsBook',
+    name: 'The friendsBook',
     subtitle: 'React + NodeJS + SQL',
-    image_url: '/images/portfolio-01.jpg',
+    image_screenshot: {
+      image_url: '/images/portfolio-01/screen.jpg',
+      image_alt: 'Screenshot of my project',
+    },
+    image_details: {
+      image_url: '/images/portfolio-01/detail.jpg',
+      image_alt: 'Screenshot of my project',
+    },
+    description: {
+      intro: 'Projekt mini facebook w React i NodeJS',
+      body: 'Możliwość stworzenia swojego konta i dodawania znajomych. Auntentyfikacją za sprawą JWT token i passport. Obsługa bazy danych za pomocą PosGreSQL bez zadnych OMD w ramach cwiczen zapytan SQL. Po stronie klienta React i responsywny layout CSS w module CSS ',
+      ending: 'Ten projekt dużo nauczył mnie jeżeli chodzi o SQL',
+    },
+    github_url: {
+      frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
+      backend: 'https://github.com/BigWojtek7/odin-book-backend',
+    },
   },
   {
     id: 2,
-    project_name: 'Blog API',
-    subtitle: 'React + NodeJS + MongoDB',
-    image_url: '/images/portfolio-02.jpg',
-
-  }
+    name: 'The friendsBook',
+    subtitle: 'React + NodeJS + SQL',
+    image_screenshot: {
+      image_url: '/images/portfolio-02.jpg',
+      image_alt: 'Screenshot of my project',
+    },
+    image_details: {
+      image_url: '/images/portfolio-details.jpg',
+      image_alt: 'Screenshot of my project in landscape format',
+    },
+    description: {
+      intro: 'Projekt mini facebook w React i NodeJS',
+      body: 'Możliwość stworzenia swojego konta i dodawania znajomych. Auntentyfikacją za sprawą JWT token i passport. Obsługa bazy danych za pomocą PosGreSQL bez zadnych OMD w ramach cwiczen zapytan SQL. Po stronie klienta React i responsywny layout CSS w module CSS ',
+      ending: 'Ten projekt dużo nauczył mnie jeżeli chodzi o SQL',
+    },
+    github_url: {
+      frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
+      backend: 'https://github.com/BigWojtek7/odin-book-backend',
+    },
+  },
+  {
+    id: 3,
+    name: 'The friendsBook',
+    subtitle: 'React + NodeJS + SQL',
+    image_screenshot: {
+      image_url: '/images/portfolio-03.jpg',
+      image_alt: 'Screenshot of my project',
+    },
+    image_details: {
+      image_url: '/images/portfolio-details.jpg',
+      image_alt: 'Screenshot of my project in landscape format',
+    },
+    description: {
+      intro: 'Projekt mini facebook w React i NodeJS',
+      body: 'Możliwość stworzenia swojego konta i dodawania znajomych. Auntentyfikacją za sprawą JWT token i passport. Obsługa bazy danych za pomocą PosGreSQL bez zadnych OMD w ramach cwiczen zapytan SQL. Po stronie klienta React i responsywny layout CSS w module CSS ',
+      ending: 'Ten projekt dużo nauczył mnie jeżeli chodzi o SQL',
+    },
+    github_url: {
+      frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
+      backend: 'https://github.com/BigWojtek7/odin-book-backend',
+    },
+  },
+  {
+    id: 4,
+    name: 'The friendsBook',
+    subtitle: 'React + NodeJS + SQL',
+    image_screenshot: {
+      image_url: '/images/portfolio-04.jpg',
+      image_alt: 'Screenshot of my project',
+    },
+    image_details: {
+      image_url: '/images/portfolio-details.jpg',
+      image_alt: 'Screenshot of my project in landscape format',
+    },
+    description: {
+      intro: 'Projekt mini facebook w React i NodeJS',
+      body: 'Możliwość stworzenia swojego konta i dodawania znajomych. Auntentyfikacją za sprawą JWT token i passport. Obsługa bazy danych za pomocą PosGreSQL bez zadnych OMD w ramach cwiczen zapytan SQL. Po stronie klienta React i responsywny layout CSS w module CSS ',
+      ending: 'Ten projekt dużo nauczył mnie jeżeli chodzi o SQL',
+    },
+    github_url: {
+      frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
+      backend: 'https://github.com/BigWojtek7/odin-book-backend',
+    },
+  },
 ];
 
 export default projectsArray;
