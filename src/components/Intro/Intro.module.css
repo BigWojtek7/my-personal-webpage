@@ -6,10 +6,10 @@
 .subtitle {
   margin: 0;
   background: var(--clr-accent);
-  text-transform: uppercase;
+  font-size: var(--fs-h3);
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
-  padding: 0.5em;
+  padding: 0.25em 1em;
   display: inline-block;
 }
 
