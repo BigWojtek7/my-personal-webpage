@@ -30,7 +30,7 @@
   }
   .card {
     display: grid;
-    margin-bottom: 4em;
+    margin-bottom: 3.5em;
     width: min-content;
     column-gap: 1em;
     grid-template-areas:
