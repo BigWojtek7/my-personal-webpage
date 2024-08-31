@@ -24,8 +24,8 @@
 @media (min-width: 600px) {
   .about {
     display: grid;
-    grid-template-columns: 1fr 300px;
-    grid-template-rows: 90px 70px 1fr;
+    grid-template-columns: 1fr 275px;
+    grid-template-rows: min-content min-content 1fr;
     column-gap: 1em;
     grid-template-areas:
       'title image'
@@ -36,6 +36,9 @@
     grid-area: image;
     position: relative;
   }
+  .aboutText p:first-child{
+    margin-top: 0;
+  }
   .subtitle {
     align-self: start;
     grid-column: 1/ -1;
@@ -44,6 +47,6 @@
     left: -1em;
     width: calc(100% + 2em);
     padding-left: 1em;
-    padding-right: calc(300px + 4em);
+    padding-right: calc(275px + 4em);
   }
 }
