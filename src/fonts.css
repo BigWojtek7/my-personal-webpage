@@ -3,6 +3,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url('./assets/fonts/roboto-v32-latin-300.woff2') format('woff2');
 }
 /* roboto-regular - latin */
@@ -10,6 +11,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('./assets/fonts/roboto-v32-latin-regular.woff2') format('woff2');
 }
 /* roboto-italic - latin */
@@ -17,6 +19,7 @@
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 400;
+  font-display: swap;
   src: url('./assets/fonts/roboto-v32-latin-italic.woff2') format('woff2');
 }
 /* roboto-700 - latin */
@@ -24,22 +27,51 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url('./assets/fonts/roboto-v32-latin-700.woff2') format('woff2');
-}
-
-/*------------ */
-
-@font-face {
-  font-family: 'Source Code Pro';
-  font-style: normal;
-  font-weight: 400;
   font-display: swap;
-  src: url('./assets/fonts/sans-code-pro-regular.woff2') format('woff2');
+  src: url('./assets/fonts/roboto-v32-latin-700.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Norse-Bold';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('./assets/fonts/norse-bold.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/source-code-pro-regular-latin-ext.woff2')
+    format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/source-code-pro-regular-latin.woff2') format('woff2');
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('./assets/fonts/source-code-pro-bold-latin-ext.woff2')
+    format('woff2');
+}
+
+/* latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('./assets/fonts/source-code-pro-bold-latin.woff2') format('woff2');
 }
