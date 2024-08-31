@@ -1,7 +1,7 @@
 .myServices {
   text-align: center;
   background-color: var(--clr-dark);
-  background-image: url('/images/services-bg.jpg');
+  /* background-image: url('/images/services-bg.jpg'); */
   color: var(--clr-light);
   background-size: cover;
   /* background-blend-mode: multiply; */
@@ -29,20 +29,6 @@
   background-color: var(--clr-light);
   width: 2em;
   margin: 0.5em auto 1em;
-}
-
-.btn {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0.5em 2.5em;
-  background: var(--clr-accent);
-  color: var(--clr-dark);
-  font-weight: var(--fw-bold);
-  transition: transform 200ms ease-in-out;
-}
-
-.btn:hover{
-  transform: scale(1.2);
 }
 
 @media (min-width: 800px) {

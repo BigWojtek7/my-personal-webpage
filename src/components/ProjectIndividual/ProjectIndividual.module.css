@@ -17,12 +17,3 @@
   font-weight: var(--fw-bold);
 }
 
-.btn{
-  padding: 0.5em 1.25em;
-  text-decoration: none;
-  color: var(--clr-light);
-  background-color: var(--clr-accent);
-}
-.btn + .btn{
-  margin-left: 1em;
-}
