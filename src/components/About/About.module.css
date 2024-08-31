@@ -15,6 +15,7 @@
 .about {
   margin: 0 auto;
   max-width: 1000px;
+  min-height: 100vh;
 }
 
 .aboutImg {
@@ -24,7 +25,7 @@
 @media (min-width: 600px) {
   .about {
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 300px;
     column-gap: 1em;
     grid-template-areas:
       'title image'
