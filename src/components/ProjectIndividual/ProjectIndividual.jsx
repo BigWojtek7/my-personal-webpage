@@ -16,19 +16,20 @@ function ProjectIndividual({
       <img src={imageUrl} alt={imageAlt} />
       <p>{descriptionBody}</p>
       <p>{descriptionEnding}</p>
+
+      <p className={styles.linksTitle}>Linki do projektu na gitHub:</p>
       <div className={styles.githubLinks}>
-        <p>Linki do projektu na gitHub:</p>
-        <Button url={githubUrl.frontend} isNewTab={true}>
+        <Button url={githubUrl.frontend} isNewTab={true} style={{textAlign: 'center'}}>
           Frontend
         </Button>
         <Button
           url={githubUrl.backend}
           isNewTab={true}
-          style={{ marginLeft: '1em' }}
+          style={{textAlign: 'center'}}
         >
           Backend
         </Button>
-        <Button url={liveUrl} isNewTab={true} style={{ marginLeft: '1em' }}>
+        <Button url={liveUrl} isNewTab={true} style={{textAlign: 'center'}}>
           Live
         </Button>
       </div>

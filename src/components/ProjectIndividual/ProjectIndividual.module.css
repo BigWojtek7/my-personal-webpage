@@ -12,8 +12,22 @@
   
 }
 
-.githubLinks{
+.linksTitle{
   text-align: center;
   font-weight: var(--fw-bold);
 }
 
+.githubLinks{
+  display: grid;
+  justify-content: center;
+  gap: 2em;
+}
+
+
+@media(min-width: 600px){
+  .githubLinks{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}
