@@ -6,10 +6,9 @@
 .subtitle {
   margin: 0;
   background: var(--clr-accent);
-  text-transform: uppercase;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
-  padding: 0.5em;
+  padding: 0.75em;
 }
 
 .about {
@@ -26,6 +25,7 @@
   .about {
     display: grid;
     grid-template-columns: 1fr 300px;
+    grid-template-rows: 90px 70px 1fr;
     column-gap: 1em;
     grid-template-areas:
       'title image'
@@ -44,6 +44,6 @@
     left: -1em;
     width: calc(100% + 2em);
     padding-left: 1em;
-    padding-right: calc(200px + 4em);
+    padding-right: calc(300px + 4em);
   }
 }

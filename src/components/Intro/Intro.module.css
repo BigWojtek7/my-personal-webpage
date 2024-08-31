@@ -11,6 +11,7 @@
   margin-bottom: 1em;
   padding: 0.25em 1em;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .introImg {
