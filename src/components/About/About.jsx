@@ -14,10 +14,17 @@ function About() {
           zarząniem pamięcią i pointereami zaowocowal przy głębszej juz nauce
           Javascript.
         </p>
-        <Button url="https://certificates.cs50.io/c745c9bf-bdac-4f1e-9c51-17c3be50ca35" isNewTab={true}>
+        <Button
+          url="https://certificates.cs50.io/c745c9bf-bdac-4f1e-9c51-17c3be50ca35"
+          isNewTab={true}
+        >
           CS50X
         </Button>
-        <Button url="https://certificates.cs50.io/e8529bb7-a27f-48d3-a905-1384bf046866" isNewTab={true} style={{marginLeft:'1em'}}>
+        <Button
+          url="https://certificates.cs50.io/e8529bb7-a27f-48d3-a905-1384bf046866"
+          isNewTab={true}
+          style={{ marginLeft: '1em' }}
+        >
           CS50P
         </Button>
 

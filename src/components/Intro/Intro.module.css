@@ -21,7 +21,6 @@
   display: block;
 }
 
-
 @media (min-width: 600px) {
   .intro {
     height: calc(100vh - 65px);

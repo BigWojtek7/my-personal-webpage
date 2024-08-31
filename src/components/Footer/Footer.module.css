@@ -1,16 +1,16 @@
-.footer{
+.footer {
   background: var(--clr-footer);
   color: var(--clr-accent);
   padding: 5em 2em;
   text-align: center;
 }
-.email{
+.email {
   margin: 0;
   font-weight: var(--fw-bold);
   font-size: var(--fs-h3);
 }
 
-.list{
+.list {
   display: flex;
   justify-content: center;
   gap: 2em;
@@ -18,8 +18,7 @@
   padding: 0;
 }
 
-.link{
+.link {
   text-decoration: none;
   color: inherit;
 }
-

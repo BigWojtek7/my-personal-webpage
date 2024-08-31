@@ -36,7 +36,7 @@ function MyServices() {
           </p>
         </div>
       </div>
-      <Button url="#work" isNewTab={false} style={{padding: '0.5em 2.5em'}}>
+      <Button url="#work" isNewTab={false} style={{ padding: '0.5em 2.5em' }}>
         Moje portfolio
       </Button>
     </section>

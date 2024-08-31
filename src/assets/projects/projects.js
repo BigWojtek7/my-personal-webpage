@@ -113,7 +113,8 @@ const projectsArray = [
       backend: 'https://github.com/BigWojtek7/odin-book-backend',
     },
     live_url: 'https://odin-books.netlify.app/',
-  },  {
+  },
+  {
     id: 6,
     name: 'The friendsBook',
     subtitle: 'React + NodeJS + SQL',
@@ -136,7 +137,6 @@ const projectsArray = [
     },
     live_url: 'https://odin-books.netlify.app/',
   },
-  
 ];
 
 export default projectsArray;

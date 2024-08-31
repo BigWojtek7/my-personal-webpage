@@ -30,7 +30,6 @@
       'title image'
       'subtitle image'
       'text image';
-    
   }
   .aboutImg {
     grid-area: image;
