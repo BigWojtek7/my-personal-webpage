@@ -24,14 +24,13 @@
 @media (min-width: 600px) {
   .intro {
     height: calc(100vh - 65px);
-    padding: 7em 2em;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .card {
     display: grid;
-    margin-bottom: 5em;
+    margin-bottom: 4em;
     width: min-content;
     column-gap: 1em;
     grid-template-areas:
