@@ -10,8 +10,8 @@ function Header() {
   };
   return (
     <header className={styles.header} id="home">
-      <div className={styles.logo}>
-        <p>&lt;BigWojtek7&gt;</p>
+      <div >
+        <Link className={styles.logo} to="/"><p>&lt;BigWojtek7&gt;</p></Link>
       </div>
       <button
         className={styles.btnToggle}

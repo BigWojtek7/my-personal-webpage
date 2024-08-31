@@ -1,7 +1,8 @@
+import Button from '../Button/Button';
 import styles from './MyServices.module.css';
 function MyServices() {
   return (
-    <section className={styles.myServices} id='services'>
+    <section className={styles.myServices} id="services">
       <h2 className={styles.title}>Mój warsztat</h2>
       <div className={styles.services}>
         <div className={styles.service}>
@@ -34,10 +35,10 @@ function MyServices() {
             bardziej jasnych przy projektowaniu stron client side.
           </p>
         </div>
-       
-      </div> <a href="#work" className={styles.btn}>
-          Moje portfolio
-        </a>
+      </div>
+      <Button url="#work" isNewTab={false}>
+        Moje portfolio
+      </Button>
     </section>
   );
 }

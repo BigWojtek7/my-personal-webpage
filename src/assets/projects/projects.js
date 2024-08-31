@@ -20,6 +20,7 @@ const projectsArray = [
       frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
       backend: 'https://github.com/BigWojtek7/odin-book-backend',
     },
+    live_url: 'https://odin-books.netlify.app/',
   },
   {
     id: 2,

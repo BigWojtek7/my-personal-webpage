@@ -1,3 +1,4 @@
+import Button from '../Button/Button';
 import styles from './ProjectIndividual.module.css';
 
 function ProjectIndividual({
@@ -7,6 +8,7 @@ function ProjectIndividual({
   imageUrl,
   imageAlt,
   githubUrl,
+  liveUrl,
 }) {
   return (
     <div className={styles.projectIndividual}>
@@ -16,22 +18,19 @@ function ProjectIndividual({
       <p>{descriptionEnding}</p>
       <div className={styles.githubLinks}>
         <p>Linki do projektu na gitHub:</p>
-        <a
-          href={githubUrl.frontend}
-          className={styles.btn}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Button url={githubUrl.frontend} isNewTab={true}>
           Frontend
-        </a>
-        <a
-          href={githubUrl.backend}
-          className={styles.btn}
-          target="_blank"
-          rel="noopener noreferrer"
+        </Button>
+        <Button
+          url={githubUrl.backend}
+          isNewTab={true}
+          style={{ marginLeft: '1em' }}
         >
           Backend
-        </a>
+        </Button>
+        <Button url={liveUrl} isNewTab={true} style={{ marginLeft: '1em' }}>
+          Live
+        </Button>
       </div>
     </div>
   );

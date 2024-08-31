@@ -34,6 +34,7 @@ function PortfolioItem() {
         imageUrl={project.image_details.image_url}
         imageAlt={project.image_details.image_alt}
         githubUrl={project.github_url}
+        liveUrl={project.live_url}
       />
     </>
   );

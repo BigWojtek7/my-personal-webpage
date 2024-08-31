@@ -1,7 +1,8 @@
+import Button from '../Button/Button';
 import styles from './About.module.css';
 function About() {
   return (
-    <section className={styles.about} id='about'>
+    <section className={styles.about} id="about">
       <h2 className={styles.title}>Kim jestem</h2>
       <p className={styles.subtitle}>Full Stack Dev chcący się uczyć nowego</p>
       <div className={styles.aboutText}>
@@ -13,6 +14,13 @@ function About() {
           zarząniem pamięcią i pointereami zaowocowal przy głębszej juz nauce
           Javascript.
         </p>
+        <Button url="https://certificates.cs50.io/c745c9bf-bdac-4f1e-9c51-17c3be50ca35" isNewTab={true}>
+          CS50X
+        </Button>
+        <Button url="https://certificates.cs50.io/e8529bb7-a27f-48d3-a905-1384bf046866" isNewTab={true} style={{marginLeft:'1em'}}>
+          CS50P
+        </Button>
+
         <p>
           Moją przygodę z nauką web dev kontynuwalem z Odin Project, który po 7
           miesiącach ukończyłem. CSS, mimo, że z początku sprawial sporo
