@@ -132,8 +132,8 @@ const projectsArray = [
       image_alt: 'Screenshot of my project',
     },
     description: {
-      intro: 'Mini facebook project in React and NodeJS',
-      body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
+      intro: 'Mini facebook project in React and NodeJS with PostGreSQL database',
+      body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any ORM in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
       ending:
         'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
     },
