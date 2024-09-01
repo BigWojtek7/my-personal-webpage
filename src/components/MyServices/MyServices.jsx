@@ -10,8 +10,8 @@ function MyServices() {
           <p>
             In this age of the popularity of frameworks, I will not overlook the
             basics, which for years have ruled and are the pillars of web
-            development namely CSS and vanilla Javascript. I like CSS, and
-            that&#39;s why in all my projects all my projects I use CSS modules, to
+            development namely HTML, CSS and vanilla Javascript. I like CSS, and
+            that&#39;s why in all my projects I use CSS modules, to
             get the most out of this language.
           </p>
         </div>

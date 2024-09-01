@@ -12,7 +12,7 @@ function About() {
           which was based on Python instilled in me a great enthusiasm for this
           profession. Another CS50X course and learning the basics of the C
           language manually memory management and pointers resulted in a deeper
-          learning of Javascript.
+          understanding of Javascript.
         </p>
         <Button
           url="https://certificates.cs50.io/c745c9bf-bdac-4f1e-9c51-17c3be50ca35"
@@ -30,9 +30,9 @@ function About() {
 
         <p>
           My adventure in learning web dev continued with Odin Project, which
-          after 7 months since I graduated. Although CSS caused a lot of
-          frustration, after learning about FlexBox and GRid, it also began to
-          give me pleasure. pleasure. At this point, I am well aware of the
+          after 7 months since I graduated. Although CSS caused a bit of
+          frustration, after learning about FlexBox and Grid, it also began to
+          give me pleasure. At this point, I am well aware of the
           direction of React, which perfectly integrates all the tools. In the
           meantime, I got to know Node JS and PostgreSQL.
         </p>
