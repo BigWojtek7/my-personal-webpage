@@ -38,7 +38,7 @@ function About() {
         </p>
       </div>
       <img
-        src="/images/wojtek-02.jpeg"
+        src="/images/wojtek-02.jpg"
         alt="Me standing"
         className={styles.aboutImg}
       />

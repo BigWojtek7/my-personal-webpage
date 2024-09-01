@@ -10,7 +10,7 @@ function Home() {
         title={'Cześć jestem,'}
         name={'Wojciech Zagórowski'}
         subtitle={'full-stack dev'}
-        imageSrc={'/images/wojtek-01.jpeg'}
+        imageSrc={'/images/wojtek-01.jpg'}
         imageAlt={'Image of my face'}
       />
       <MyServices />
