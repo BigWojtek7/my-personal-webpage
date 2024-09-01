@@ -12,7 +12,7 @@ function MyServices() {
             basics, which for years have ruled and are the pillars of web
             development namely CSS and vanilla Javascript. I like CSS, and
             that&#39;s why in all my projects all my projects I use CSS modules,
-            to get the most out of this language. draw from this language
+            to get the most out of this language.
           </p>
         </div>
         <div className={styles.service}>
