@@ -25,7 +25,7 @@
 @media (min-width: 600px) {
   .intro {
     height: calc(100vh - 65px);
-    max-height: 1000px;
+    max-height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +38,7 @@
     grid-template-areas:
       'image title'
       'image subtitle';
-    grid-template-columns: clamp(250px, 30vw, 350px) max-content;
+    grid-template-columns: clamp(250px, 30vw, 330px) max-content;
     grid-template-rows: 1fr 1fr;
 
     /* grid-template-columns: min-width max-content */;
