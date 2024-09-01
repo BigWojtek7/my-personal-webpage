@@ -5,8 +5,8 @@ import projectsArray from '../../assets/projects/projects';
 function MyWork() {
   return (
     <section className={styles.myWork} id="work">
-      <h2 className={styles.title}>Moje projekty</h2>
-      <p className={styles.subtitle}>Moje wybrane projekty</p>
+      <h2 className={styles.title}>My projects</h2>
+      <p className={styles.subtitle}>My selected projects</p>
       <div className={styles.portfolio}>
         {projectsArray.map((project) => (
           <Link

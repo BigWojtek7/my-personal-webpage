@@ -17,7 +17,7 @@ function ProjectIndividual({
       <p>{descriptionBody}</p>
       <p>{descriptionEnding}</p>
 
-      <p className={styles.linksTitle}>Linki do projektu na gitHub:</p>
+      <p className={styles.linksTitle}>GitHub links:</p>
       <div className={styles.githubLinks}>
         <Button url={githubUrl.frontend} isNewTab={true} style={{textAlign: 'center'}}>
           Frontend

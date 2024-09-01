@@ -4,15 +4,15 @@ function About() {
   return (
     <section className={styles.about} id="about">
       <h2 className={styles.title}>Kim jestem</h2>
-      <p className={styles.subtitle}>Full Stack Dev chcący się uczyć nowego</p>
+      <p className={styles.subtitle}>Full Stack Dev willing to explore new</p>
       <div className={styles.aboutText}>
         <p>
-          Projektowanie stron internetowych była od zawsze moim marzeniem, ale
-          długo nie robiłem nic w tym kierunku. Kurs Harvard CS50P, który
-          opierał się na Pythonie zaszczepil we mnie ogromny zapał do tego
-          zawodu. Kolejny kurs CS50X i poznanie podstaw języka C z manulanym
-          zarząniem pamięcią i pointereami zaowocowal przy głębszej juz nauce
-          Javascript.
+          Web design has always been a dream of mine, but I didn&#39;t do
+          anything in this direction for a long time. The Harvard CS50P course,
+          which was based on Python instilled in me a great enthusiasm for this
+          profession. Another CS50X course and learning the basics of the C
+          language manually memory management and pointers resulted in a deeper
+          learning of Javascript.
         </p>
         <Button
           url="https://certificates.cs50.io/c745c9bf-bdac-4f1e-9c51-17c3be50ca35"
@@ -29,12 +29,12 @@ function About() {
         </Button>
 
         <p>
-          Moją przygodę z nauką web dev kontynuwalem z Odin Project, który po 7
-          miesiącach ukończyłem. CSS, mimo, że z początku sprawial sporo
-          flustracji, po poznaniu FlexBox i GRid zaczął również sprawiać
-          przyjemność. W tym momencie doskonale wiedze w kierunku React, który
-          doskonale scala wszystkie narzędzia. W miedzyczasie poznalem Node JS i
-          posgresql.
+          My adventure in learning web dev continued with Odin Project, which
+          after 7 months since I graduated. Although CSS caused a lot of
+          frustration, after learning about FlexBox and GRid, it also began to
+          give me pleasure. pleasure. At this point, I am well aware of the
+          direction of React, which perfectly integrates all the tools. In the
+          meantime, I got to know Node JS and PostgreSQL.
         </p>
       </div>
       <img

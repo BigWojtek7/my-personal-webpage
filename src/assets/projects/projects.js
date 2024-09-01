@@ -12,9 +12,10 @@ const projectsArray = [
       image_alt: 'Screenshot of my project',
     },
     description: {
-      intro: 'Projekt mini facebook w React i NodeJS',
-      body: 'Możliwość stworzenia swojego konta i dodawania znajomych. Auntentyfikacją za sprawą JWT token i passport. Obsługa bazy danych za pomocą PosGreSQL bez zadnych OMD w ramach cwiczen zapytan SQL. Po stronie klienta React i responsywny layout CSS w module CSS ',
-      ending: 'Ten projekt dużo nauczył mnie jeżeli chodzi o SQL',
+      intro: 'Mini facebook project in React and NodeJS',
+      body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
+      ending:
+        'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
     },
     github_url: {
       frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
@@ -35,9 +36,10 @@ const projectsArray = [
       image_alt: 'Screenshot of my project in landscape format',
     },
     description: {
-      intro: 'Projekt mini facebook w React i NodeJS',
-      body: 'Możliwość stworzenia swojego konta i dodawania znajomych. Auntentyfikacją za sprawą JWT token i passport. Obsługa bazy danych za pomocą PosGreSQL bez zadnych OMD w ramach cwiczen zapytan SQL. Po stronie klienta React i responsywny layout CSS w module CSS ',
-      ending: 'Ten projekt dużo nauczył mnie jeżeli chodzi o SQL',
+      intro: 'Mini facebook project in React and NodeJS',
+      body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
+      ending:
+        'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
     },
     github_url: {
       frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
@@ -58,9 +60,10 @@ const projectsArray = [
       image_alt: 'Screenshot of my project in landscape format',
     },
     description: {
-      intro: 'Projekt mini facebook w React i NodeJS',
-      body: 'Możliwość stworzenia swojego konta i dodawania znajomych. Auntentyfikacją za sprawą JWT token i passport. Obsługa bazy danych za pomocą PosGreSQL bez zadnych OMD w ramach cwiczen zapytan SQL. Po stronie klienta React i responsywny layout CSS w module CSS ',
-      ending: 'Ten projekt dużo nauczył mnie jeżeli chodzi o SQL',
+      intro: 'Mini facebook project in React and NodeJS',
+      body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
+      ending:
+        'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
     },
     github_url: {
       frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
@@ -81,9 +84,10 @@ const projectsArray = [
       image_alt: 'Screenshot of my project in landscape format',
     },
     description: {
-      intro: 'Projekt mini facebook w React i NodeJS',
-      body: 'Możliwość stworzenia swojego konta i dodawania znajomych. Auntentyfikacją za sprawą JWT token i passport. Obsługa bazy danych za pomocą PosGreSQL bez zadnych OMD w ramach cwiczen zapytan SQL. Po stronie klienta React i responsywny layout CSS w module CSS ',
-      ending: 'Ten projekt dużo nauczył mnie jeżeli chodzi o SQL',
+      intro: 'Mini facebook project in React and NodeJS',
+      body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
+      ending:
+        'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
     },
     github_url: {
       frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
@@ -104,9 +108,10 @@ const projectsArray = [
       image_alt: 'Screenshot of my project',
     },
     description: {
-      intro: 'Projekt mini facebook w React i NodeJS',
-      body: 'Możliwość stworzenia swojego konta i dodawania znajomych. Auntentyfikacją za sprawą JWT token i passport. Obsługa bazy danych za pomocą PosGreSQL bez zadnych OMD w ramach cwiczen zapytan SQL. Po stronie klienta React i responsywny layout CSS w module CSS ',
-      ending: 'Ten projekt dużo nauczył mnie jeżeli chodzi o SQL',
+      intro: 'Mini facebook project in React and NodeJS',
+      body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
+      ending:
+        'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
     },
     github_url: {
       frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
@@ -127,9 +132,10 @@ const projectsArray = [
       image_alt: 'Screenshot of my project',
     },
     description: {
-      intro: 'Projekt mini facebook w React i NodeJS',
-      body: 'Możliwość stworzenia swojego konta i dodawania znajomych. Auntentyfikacją za sprawą JWT token i passport. Obsługa bazy danych za pomocą PosGreSQL bez zadnych OMD w ramach cwiczen zapytan SQL. Po stronie klienta React i responsywny layout CSS w module CSS ',
-      ending: 'Ten projekt dużo nauczył mnie jeżeli chodzi o SQL',
+      intro: 'Mini facebook project in React and NodeJS',
+      body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
+      ending:
+        'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
     },
     github_url: {
       frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
