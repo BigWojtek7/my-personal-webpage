@@ -30,8 +30,9 @@ function MyServices() {
           <p>
             Although I focus my work on the front end, my knowledge of the back
             end of Node JS has helped me understand many aspects such as
-            handling APIs, data security, or the use of PostgreSQL as well as
-            MongoDB. Such experiences make many thi
+            handling APIs, data security or the use of PostgreSQL as well as
+            MongoDB. Such experiences make many things clearer when designing
+            client-side websites.
           </p>
         </div>
       </div>
