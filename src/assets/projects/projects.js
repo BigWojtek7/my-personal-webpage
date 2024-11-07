@@ -12,7 +12,8 @@ const projectsArray = [
       image_alt: 'Screenshot of my project',
     },
     description: {
-      intro: 'Mini facebook project in React and NodeJS with PostGreSQL database',
+      intro:
+        'Mini facebook project in React and NodeJS with PostGreSQL database',
       body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
       ending:
         'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
@@ -25,27 +26,27 @@ const projectsArray = [
   },
   {
     id: 2,
-    name: 'The friendsBook',
+    name: 'The blog API',
     subtitle: 'React + NodeJS + SQL',
     image_screenshot: {
-      image_url: '/images/portfolio-02.jpg',
+      image_url: '/images/portfolio-02/screen.jpg',
       image_alt: 'Screenshot of my project',
     },
     image_details: {
-      image_url: '/images/portfolio-details.jpg',
-      image_alt: 'Screenshot of my project in landscape format',
+      image_url: '/images/portfolio-02/detail.jpg',
+      image_alt: 'Screenshot of my project',
     },
     description: {
-      intro: 'Mini facebook project in React and NodeJS with PostGreSQL database',
-      body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
+      intro: 'A blog application built as part of The Odin Project curriculum.',
+      body: 'This web app allows users to view posts and, if logged in, comment on them. Admin users have additional permissions to add , delete posts and delete comments.',
       ending:
-        'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
+        'This is my model project where I took application testing very seriously',
     },
     github_url: {
-      frontend: 'https://github.com/BigWojtek7/odin-book-frontend',
-      backend: 'https://github.com/BigWojtek7/odin-book-backend',
+      frontend: 'https://github.com/BigWojtek7/odin-react-blog-api',
+      backend: 'https://github.com/BigWojtek7/odin-express-blog-api',
     },
-    live_url: 'https://odin-books.netlify.app/',
+    live_url: 'https://my-blog-api.netlify.app/',
   },
   {
     id: 3,
@@ -60,7 +61,8 @@ const projectsArray = [
       image_alt: 'Screenshot of my project in landscape format',
     },
     description: {
-      intro: 'Mini facebook project in React and NodeJS with PostGreSQL database',
+      intro:
+        'Mini facebook project in React and NodeJS with PostGreSQL database',
       body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
       ending:
         'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
@@ -84,7 +86,8 @@ const projectsArray = [
       image_alt: 'Screenshot of my project in landscape format',
     },
     description: {
-      intro: 'Mini facebook project in React and NodeJS with PostGreSQL database',
+      intro:
+        'Mini facebook project in React and NodeJS with PostGreSQL database',
       body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
       ending:
         'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
@@ -108,7 +111,8 @@ const projectsArray = [
       image_alt: 'Screenshot of my project',
     },
     description: {
-      intro: 'Mini facebook project in React and NodeJS with PostGreSQL database',
+      intro:
+        'Mini facebook project in React and NodeJS with PostGreSQL database',
       body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
       ending:
         'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
@@ -132,7 +136,8 @@ const projectsArray = [
       image_alt: 'Screenshot of my project',
     },
     description: {
-      intro: 'Mini facebook project in React and NodeJS with PostGreSQL database',
+      intro:
+        'Mini facebook project in React and NodeJS with PostGreSQL database',
       body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any ORM in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
       ending:
         'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
