@@ -38,9 +38,9 @@ const projectsArray = [
     },
     description: {
       intro: 'A blog application built as part of The Odin Project curriculum.',
-      body: 'This web app allows users to view posts and, if logged in, comment on them. Admin users have additional permissions to add , delete posts and delete comments.',
+      body: 'This web app allows users to view posts and, if logged in, comment on them. Admin users have additional permissions to add and delete posts, as well as delete comments.This is my model project, fully typed with TypeScript, where I focused on writing robust, maintainable code.',
       ending:
-        'This is my model project where I took application testing very seriously',
+        'I also took application testing very seriously to ensure high-quality and reliable functionality.',
     },
     github_url: {
       frontend: 'https://github.com/BigWojtek7/odin-react-blog-api',
