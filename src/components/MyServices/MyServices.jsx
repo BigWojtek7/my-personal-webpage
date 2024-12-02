@@ -6,13 +6,14 @@ function MyServices() {
       <h2 className={styles.title}>What I do</h2>
       <div className={styles.services}>
         <div className={styles.service}>
-          <h3>HTML, CSS, & JavaScript</h3>
+          <h3>HTML, CSS, JavaScript & TypeScript</h3>
           <p>
-            Despite the rise of frameworks, I prioritize mastering the core web
-            technologies—HTML, CSS, and JavaScript—as the pillars of web
-            development. I enjoy working with CSS, utilizing CSS Modules across
-            my projects to maximize the efficiency and maintainability of
-            styles.
+            HTML, CSS, JavaScript & TypeScript I believe in mastering the core
+            web technologies—HTML, CSS, and JavaScript—as they form the
+            foundation of web development, even in an era dominated by
+            frameworks. Recently, I have expanded my skill set to include
+            TypeScript, leveraging its type safety and developer tooling to
+            create more robust and maintainable code.
           </p>
         </div>
         <div className={styles.service}>
