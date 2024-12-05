@@ -8,12 +8,11 @@ function MyServices() {
         <div className={styles.service}>
           <h3>HTML, CSS, JavaScript & TypeScript</h3>
           <p>
-            HTML, CSS, JavaScript & TypeScript I believe in mastering the core
-            web technologies—HTML, CSS, and JavaScript—as they form the
-            foundation of web development, even in an era dominated by
-            frameworks. Recently, I have expanded my skill set to include
-            TypeScript, leveraging its type safety and developer tooling to
-            create more robust and maintainable code.
+            I believe in mastering the core web technologies—HTML, CSS, and
+            JavaScript—as they form the foundation of web development, even in
+            an era dominated by frameworks. Recently, I have expanded my skill
+            set to include TypeScript, leveraging its type safety and developer
+            tooling to create more robust and maintainable code.
           </p>
         </div>
         <div className={styles.service}>
