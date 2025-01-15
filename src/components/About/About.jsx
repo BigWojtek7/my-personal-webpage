@@ -1,5 +1,4 @@
 import Button from '../Button/Button';
-import styles from './About.module.css';
 import clsx from 'clsx';
 
 function About() {
