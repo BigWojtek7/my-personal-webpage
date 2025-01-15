@@ -1,14 +1,13 @@
-import styles from './Button.module.css';
+// import styles from './Button.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-function Button({ url, isNewTab, style, children }) {
+function Button({ url, isNewTab, className, children }) {
   return (
     <a
-      className={styles.btn}
+      className={`inline-block text-white bg-accent font-extrabold transition-transform duration-200 hover:scale-105 ${className}`}
       href={url}
       target={isNewTab ? '_blank' : undefined}
       rel={isNewTab ? 'noopener noreferrer' : undefined}
-      style={style}
     >
       {children}
       {isNewTab && ' '}
