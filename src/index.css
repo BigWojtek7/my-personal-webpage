@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  p {
+    @apply py-4; /* Example default padding */
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply mb-4; /* Example default margin */
+  }
+}
+
 *,
 *::before,
 *::after {

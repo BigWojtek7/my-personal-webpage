@@ -1,10 +1,15 @@
 import Button from '../Button/Button';
-import styles from './MyServices.module.css';
 import ServiceCard from './ServiceCard';
+import clsx from 'clsx';
 function MyServices() {
   return (
     <section className="text-center bg-white text-primary" id="services">
-      <h2 className="font-black mb:4 text-accent after:content-[''] after:block after:h-[1px] after:bg-primary after:w-24 after:mx-auto after:mt-8 after:mb-16">
+      <h2
+        className={clsx(
+          'font-black text-accent',
+          "after:content-[''] after:block after:h-[1px] after:bg-primary after:w-24 after:mx-auto after:mt-8 after:mb-16"
+        )}
+      >
         What I do
       </h2>
       <div className="max-w-5xl mx-auto mb-16 md:flex gap-8">
