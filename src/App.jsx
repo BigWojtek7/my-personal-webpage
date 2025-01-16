@@ -1,5 +1,3 @@
-import styles from './App.module.css';
-
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import { Outlet } from 'react-router-dom';
@@ -10,7 +8,7 @@ function App() {
     <>
       <ScrollToHashElement />
       <Header />
-      <main className={styles.main}>
+      <main>
         <Outlet />
       </main>
       <Footer />

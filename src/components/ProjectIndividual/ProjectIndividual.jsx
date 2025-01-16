@@ -1,5 +1,4 @@
 import Button from '../Button/Button';
-import styles from './ProjectIndividual.module.css';
 
 function ProjectIndividual({
   descriptionIntro,
@@ -11,14 +10,14 @@ function ProjectIndividual({
   liveUrl,
 }) {
   return (
-    <div className={styles.projectIndividual}>
+    <div className="px-8 py-8 max-w-5xl mx-auto">
       <p>{descriptionIntro}</p>
       <img src={imageUrl} alt={imageAlt} />
       <p>{descriptionBody}</p>
       <p>{descriptionEnding}</p>
 
-      <p className={styles.linksTitle}>GitHub links:</p>
-      <div className={styles.githubLinks}>
+      <p className="text-center font-black">GitHub links:</p>
+      <div className="max-w-lg flex justify-center gap-4 flex-wrap mx-auto">
         <Button url={githubUrl.frontend} isNewTab={true} style={{textAlign: 'center'}}>
           Frontend
         </Button>

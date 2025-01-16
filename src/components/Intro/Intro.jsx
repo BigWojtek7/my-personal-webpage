@@ -1,4 +1,3 @@
-import styles from './Intro.module.css';
 function Intro({ title, name, subtitle, imageSrc, imageAlt, style }) {
   return (
     <section

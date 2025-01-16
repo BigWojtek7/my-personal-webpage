@@ -12,7 +12,7 @@ function Header() {
     <header className={styles.header} id="home">
       <div>
         <Link className={styles.logo} to="/">
-          <p>&lt;BigWojtek7&gt;</p>
+          <p className='p-0'>&lt;BigWojtek7&gt;</p>
         </Link>
       </div>
       <button
