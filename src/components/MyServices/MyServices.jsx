@@ -6,7 +6,7 @@ function MyServices() {
     <section className="text-center bg-white text-primary" id="services">
       <h2
         className={clsx(
-          'font-black text-accent',
+          'text-accent',
           "after:content-[''] after:block after:h-[1px] after:bg-primary after:w-24 after:mx-auto after:mt-8 after:mb-16"
         )}
       >
