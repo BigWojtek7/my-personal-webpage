@@ -1,56 +1,89 @@
 import { Link } from 'react-router-dom';
-import styles from './Header.module.css';
+import { useState } from 'react';
 
-function Header() {
+const Header = () => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
   const toggleMenu = () => {
-    document.body.classList.toggle('navOpen');
+    setIsNavOpen(!isNavOpen);
   };
+
   const closeMenu = () => {
-    document.body.classList.remove('navOpen');
+    setIsNavOpen(false);
   };
+
   return (
-    <header className={styles.header} id="home">
+    <header className="bg-[var(--clr-footer)] h-16 px-6 pt-3" id="home">
       <div>
-        <Link className={styles.logo} to="/">
-          <p className='p-0'>&lt;BigWojtek7&gt;</p>
+        <Link className="text-inherit no-underline text-2xl" to="/">
+          <p className="font-secondary p-0">
+            &lt;BigWojtek7&gt;
+          </p>
         </Link>
       </div>
+
       <button
-        className={styles.btnToggle}
+        className={`
+          border border-[rgba(165,150,120,0.5)] rounded-lg
+          py-5 px-3 bg-transparent cursor-pointer
+          absolute right-6 top-3 z-50
+          ${isNavOpen ? 'fixed' : 'absolute'}
+        `}
         onClick={toggleMenu}
         aria-label="toggle navigation"
       >
-        <span className={styles.hamburger}></span>
+        <span className={`
+          relative block
+          before:content-[''] after:content-['']
+          before:absolute after:absolute
+          before:left-0 after:left-0
+          before:right-0 after:right-0
+          before:h-[3px] after:h-[3px]
+          before:w-8 after:w-8
+          before:rounded-[1px] after:rounded-[1px]
+          before:bg-[var(--clr-accent)] after:bg-[var(--clr-accent)]
+          before:-top-2 after:top-2
+          before:transition-transform after:transition-transform
+          before:duration-250 after:duration-250
+          h-[3px] w-8 rounded-[1px] bg-[var(--clr-accent)]
+          transition-all duration-250 ease-in-out
+          ${isNavOpen ? `
+            rotate-45
+            before:translate-y-2 before:rotate-90
+            after:translate-y-[-2px] after:opacity-0
+          ` : ''}
+        `} />
       </button>
-      <nav className={`${styles.nav}`}>
-        <ul className={styles.navList}>
-          <li className={styles.navItem}>
-            <Link to="/#home" className={styles.navLink} onClick={closeMenu}>
-              Home
-            </Link>
-          </li>
-          <li className={styles.navItem}>
-            <Link
-              to="/#services"
-              className={styles.navLink}
-              onClick={closeMenu}
-            >
-              What I do
-            </Link>
-          </li>
-          <li className={styles.navItem}>
-            <Link to="/#about" className={styles.navLink} onClick={closeMenu}>
-              About me
-            </Link>
-          </li>
-          <li className={styles.navItem}>
-            <Link to="/#work" className={styles.navLink} onClick={closeMenu}>
-              My Portfolio
-            </Link>
-          </li>
+
+      <nav
+        className={`
+        fixed bg-[var(--clr-footer)] text-[var(--clr-dark)]
+        inset-0 z-40
+        transition-transform duration-250 ease-[cubic-bezier(0.5,0,0.5,1)]
+        ${isNavOpen ? 'translate-x-0' : 'translate-x-full'}
+      `}
+      >
+        <ul className="flex flex-col h-full list-none p-0 m-0 justify-evenly items-center">
+          {[
+            { to: '/#home', text: 'Home' },
+            { to: '/#services', text: 'What I do' },
+            { to: '/#about', text: 'About me' },
+            { to: '/#work', text: 'My Portfolio' },
+          ].map((item) => (
+            <li key={item.text}>
+              <Link
+                to={item.to}
+                className="text-5xl no-underline font-black hover:text-[var(--clr-accent)]"
+                onClick={closeMenu}
+              >
+                {item.text}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
   );
-}
+};
+
 export default Header;
