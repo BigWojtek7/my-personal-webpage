@@ -13,12 +13,10 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-[var(--clr-footer)] h-16 px-6 pt-3" id="home">
+    <header className="bg-footer h-16 px-6 pt-3" id="home">
       <div>
         <Link className="text-inherit no-underline text-2xl" to="/">
-          <p className="font-secondary p-0">
-            &lt;BigWojtek7&gt;
-          </p>
+          <p className="font-secondary p-0">&lt;BigWojtek7&gt;</p>
         </Link>
       </div>
 
@@ -32,7 +30,8 @@ const Header = () => {
         onClick={toggleMenu}
         aria-label="toggle navigation"
       >
-        <span className={`
+        <span
+          className={`
           relative block
           before:content-[''] after:content-['']
           before:absolute after:absolute
@@ -41,23 +40,28 @@ const Header = () => {
           before:h-[3px] after:h-[3px]
           before:w-8 after:w-8
           before:rounded-[1px] after:rounded-[1px]
-          before:bg-[var(--clr-accent)] after:bg-[var(--clr-accent)]
+          before:bg-accent after:bg-accent
           before:-top-2 after:top-2
           before:transition-transform after:transition-transform
           before:duration-250 after:duration-250
-          h-[3px] w-8 rounded-[1px] bg-[var(--clr-accent)]
+          h-[3px] w-8 rounded-[1px] bg-accent
           transition-all duration-250 ease-in-out
-          ${isNavOpen ? `
+          ${
+            isNavOpen
+              ? `
             rotate-45
             before:translate-y-2 before:rotate-90
             after:translate-y-[-2px] after:opacity-0
-          ` : ''}
-        `} />
+          `
+              : ''
+          }
+        `}
+        />
       </button>
 
       <nav
         className={`
-        fixed bg-[var(--clr-footer)] text-[var(--clr-dark)]
+        fixed bg-footer text-white
         inset-0 z-40
         transition-transform duration-250 ease-[cubic-bezier(0.5,0,0.5,1)]
         ${isNavOpen ? 'translate-x-0' : 'translate-x-full'}
@@ -73,7 +77,7 @@ const Header = () => {
             <li key={item.text}>
               <Link
                 to={item.to}
-                className="text-5xl no-underline font-black hover:text-[var(--clr-accent)]"
+                className="text-5xl no-underline font-black hover:text-accent"
                 onClick={closeMenu}
               >
                 {item.text}
