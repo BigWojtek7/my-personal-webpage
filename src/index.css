@@ -1,107 +1,52 @@
+@import './fonts.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   p {
     @apply py-4; /* Example default padding */
   }
+
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    @apply mb-4 font-black; /* Example default margin */
+    @apply font-black; /* Example default margin */
   }
-}
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-:root {
-  --ff-primary: 'Roboto', sans-serif;
-  --ff-secondary: 'Source Code Pro', monospace;
-  --ff-header: 'Oswald', 'sans-serif';
-
-  --fw-reg: 300;
-  --fw-bold: 900;
-
-  --clr-footer: #2e323f;
-  --clr-light: #3b4050;
-  --clr-dark: #fff;
-  --clr-accent: #a59678;
-
-  --fs-h1: 3rem;
-  --fs-h2: 2.25rem;
-  --fs-h3: 1.25rem;
-  --fs-body: 1rem;
-
-  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
-    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
-}
-
-@media (min-width: 600px) {
-  :root {
-    --fs-h1: clamp(1.75rem, 4.75vw, 4rem);
+  body {
+    @apply text-body bg-primary font-primary leading-relaxed text-white;
   }
-}
 
-@media (min-width: 800px) {
-  :root {
-    --fs-h2: 3.75rem;
-    --fs-h3: 1.5rem;
-    --fs-body: 1.125rem;
+  h1 {
+    @apply text-heading-1;
   }
-}
 
-html {
-  scroll-behavior: smooth;
-}
+  h2 {
+    @apply text-heading-2;
+  }
 
-body {
-  background: var(--clr-light);
-  color: var(--clr-dark);
-  margin: 0;
-  font-family: var(--ff-primary);
-  font-size: var(--fs-body);
-  line-height: 1.6;
-}
+  h3 {
+    @apply text-heading-3;
+  }
 
-img {
-  display: block;
-  max-width: 100%;
-}
+  img {
+    @apply block max-w-full;
+  }
 
-h1,
-h2,
-h3 {
-  line-height: 1.1;
-  margin: 0;
-}
+  section {
+    @apply py-section px-8;
+  }
 
-h1 {
-  font-size: var(--fs-h1);
-}
-h2 {
-  font-size: var(--fs-h2);
-}
-h3 {
-  font-size: var(--fs-h3);
-}
-
-strong {
-  font-weight: var(--fw-bold);
-}
-
-section {
-  padding: 5em 2em;
-}
-
-:focus {
-  outline: 3px solid var(--clr-accent);
-  outline-offset: 3px;
+  :focus {
+    @apply outline outline-offset-[3px] outline-accent;
+  }
 }

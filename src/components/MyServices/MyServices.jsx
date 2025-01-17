@@ -7,7 +7,7 @@ function MyServices() {
       <h2
         className={clsx(
           'text-accent',
-          "after:mx-auto after:mb-16 after:mt-8 after:block after:h-[1px] after:w-24 after:bg-primary after:content-['']"
+          "after:mx-auto after:mb-8 after:mt-4 after:block after:h-[1px] after:w-24 after:bg-primary after:content-['']"
         )}
       >
         What I do
