@@ -9,6 +9,7 @@ export const pl = {
     title: 'Cześć, jestem',
     subtitle: 'Frontend Developer',
     cta: 'Moje projekty',
+    projectTitle: 'Projekt #',
   },
   services: {
     title: 'Co robię',

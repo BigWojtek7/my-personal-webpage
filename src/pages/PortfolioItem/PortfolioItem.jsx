@@ -1,9 +1,9 @@
 import Intro from '../../components/Intro/Intro';
 import ProjectIndividual from '../../components/ProjectIndividual/ProjectIndividual';
-
 import projectsArray from '../../assets/projects/projects';
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 function PortfolioItem() {
   useEffect(() => {
@@ -11,6 +11,7 @@ function PortfolioItem() {
   }, []);
 
   const { projectid } = useParams();
+  const { currentLanguage } = useLanguage();
 
   const [project] = projectsArray.filter(
     (project) => +projectid === project.id
@@ -20,7 +21,7 @@ function PortfolioItem() {
     <>
       <Intro
         style={{ height: 'auto', marginTop: '3em', marginBottom: '0' }}
-        title={`Project#${project.id}`}
+        title={`${currentLanguage.translations.intro.projectTitle}${project.id}`}
         name={project.name}
         subtitle={project.subtitle}
         imageSrc={project.image_screenshot.image_url}

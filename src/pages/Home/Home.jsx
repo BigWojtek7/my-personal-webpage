@@ -7,7 +7,6 @@ function Home() {
   return (
     <>
       <Intro
-        title={'Hi, I am'}
         name={'Wojciech Zagórowski'}
         subtitle={'full-stack dev'}
         imageSrc={'/images/wojtek-01.jpg'}
