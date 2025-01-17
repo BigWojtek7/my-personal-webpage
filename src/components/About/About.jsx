@@ -5,8 +5,8 @@ function About() {
   return (
     <section
       className={clsx(
-        'mx-auto max-w-5xl min-h-screen',
-        'sm:grid sm:grid-cols-[1fr_275px] sm:grid-rows-[min-content_min-content_1fr',
+        'mx-auto min-h-screen max-w-5xl',
+        'sm:grid-rows-[min-content_min-content_1fr sm:grid sm:grid-cols-[1fr_275px]',
         'sm:gap-x-4'
       )}
       id="about"
@@ -14,8 +14,8 @@ function About() {
       <h2 className="mb-1 font-black">Who I am</h2>
       <p
         className={clsx(
-          'm-0 mb-4 bg-accent font-secondary p-2',
-          'sm:self-start sm:col-start-1 sm:col-end-[-1]',
+          'm-0 mb-4 bg-accent p-2 font-secondary',
+          'sm:col-start-1 sm:col-end-[-1] sm:self-start',
           'sm:row-start-2 sm:row-end-3',
           'sm:relative sm:-left-4',
           'sm: w-[calc(100%+2em)]',
@@ -59,7 +59,7 @@ function About() {
       <img
         src="/images/wojtek-02.jpg"
         alt="Me standing"
-        className="shadow-lg shadow-black/50 sm:relative sm:col-start-2 sm:col-end-3 sm:row-start-1 sm:row-span-3"
+        className="shadow-lg shadow-black/50 sm:relative sm:col-start-2 sm:col-end-3 sm:row-span-3 sm:row-start-1"
       />
     </section>
   );

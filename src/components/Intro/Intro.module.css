@@ -41,7 +41,7 @@
     grid-template-columns: clamp(250px, 30vw, 330px) max-content;
     grid-template-rows: 1fr 1fr;
 
-    /* grid-template-columns: min-width max-content */;
+    /* grid-template-columns: min-width max-content */
   }
 
   .introImg {

@@ -6,9 +6,9 @@ import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 
 function PortfolioItem() {
-  useEffect(()=>{
+  useEffect(() => {
     window.scrollTo(0, 0);
-  },[])
+  }, []);
 
   const { projectid } = useParams();
   console.log(projectsArray[0].id === +projectid);

@@ -1,4 +1,4 @@
-.projectIndividual{
+.projectIndividual {
   padding: 2em 2em;
   max-width: 1000px;
   margin: 0 auto;
@@ -9,23 +9,21 @@
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
-.linksTitle{
+.linksTitle {
   text-align: center;
   font-weight: var(--fw-bold);
 }
 
-.githubLinks{
+.githubLinks {
   display: grid;
   justify-content: center;
   gap: 2em;
 }
 
-
-@media(min-width: 600px){
-  .githubLinks{
+@media (min-width: 600px) {
+  .githubLinks {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;

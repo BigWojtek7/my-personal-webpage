@@ -13,61 +13,31 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-footer h-16 px-6 pt-3" id="home">
+    <header className="h-16 bg-footer px-6 pt-3" id="home">
       <div>
-        <Link className="text-inherit no-underline text-2xl" to="/">
-          <p className="font-secondary p-0">&lt;BigWojtek7&gt;</p>
+        <Link className="text-2xl text-inherit no-underline" to="/">
+          <p className="p-0 font-secondary">&lt;BigWojtek7&gt;</p>
         </Link>
       </div>
 
       <button
-        className={`
-          border border-[rgba(165,150,120,0.5)] rounded-lg
-          py-5 px-3 bg-transparent cursor-pointer
-          absolute right-6 top-3 z-50
-          ${isNavOpen ? 'fixed' : 'absolute'}
-        `}
+        className={`absolute right-6 top-3 z-50 cursor-pointer rounded-lg border border-[rgba(165,150,120,0.5)] bg-transparent px-3 py-5 ${isNavOpen ? 'fixed' : 'absolute'} `}
         onClick={toggleMenu}
         aria-label="toggle navigation"
       >
         <span
-          className={`
-          relative block
-          before:content-[''] after:content-['']
-          before:absolute after:absolute
-          before:left-0 after:left-0
-          before:right-0 after:right-0
-          before:h-[3px] after:h-[3px]
-          before:w-8 after:w-8
-          before:rounded-[1px] after:rounded-[1px]
-          before:bg-accent after:bg-accent
-          before:-top-2 after:top-2
-          before:transition-transform after:transition-transform
-          before:duration-250 after:duration-250
-          h-[3px] w-8 rounded-[1px] bg-accent
-          transition-all duration-250 ease-in-out
-          ${
+          className={`before:duration-250 after:duration-250 duration-250 relative block h-[3px] w-8 rounded-[1px] bg-accent transition-all ease-in-out before:absolute before:-top-2 before:left-0 before:right-0 before:h-[3px] before:w-8 before:rounded-[1px] before:bg-accent before:transition-transform before:content-[''] after:absolute after:left-0 after:right-0 after:top-2 after:h-[3px] after:w-8 after:rounded-[1px] after:bg-accent after:transition-transform after:content-[''] ${
             isNavOpen
-              ? `
-            rotate-45
-            before:translate-y-2 before:rotate-90
-            after:translate-y-[-2px] after:opacity-0
-          `
+              ? `rotate-45 before:translate-y-2 before:rotate-90 after:translate-y-[-2px] after:opacity-0`
               : ''
-          }
-        `}
+          } `}
         />
       </button>
 
       <nav
-        className={`
-        fixed bg-footer text-white
-        inset-0 z-40
-        transition-transform duration-250 ease-[cubic-bezier(0.5,0,0.5,1)]
-        ${isNavOpen ? 'translate-x-0' : 'translate-x-full'}
-      `}
+        className={`duration-250 fixed inset-0 z-40 bg-footer text-white transition-transform ease-[cubic-bezier(0.5,0,0.5,1)] ${isNavOpen ? 'translate-x-0' : 'translate-x-full'} `}
       >
-        <ul className="flex flex-col h-full list-none p-0 m-0 justify-evenly items-center">
+        <ul className="m-0 flex h-full list-none flex-col items-center justify-evenly p-0">
           {[
             { to: '/#home', text: 'Home' },
             { to: '/#services', text: 'What I do' },
@@ -77,7 +47,7 @@ const Header = () => {
             <li key={item.text}>
               <Link
                 to={item.to}
-                className="text-5xl no-underline font-black hover:text-accent"
+                className="text-5xl font-black no-underline hover:text-accent"
                 onClick={closeMenu}
               >
                 {item.text}

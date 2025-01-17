@@ -36,7 +36,7 @@
     grid-area: image;
     position: relative;
   }
-  .aboutText p:first-child{
+  .aboutText p:first-child {
     margin-top: 0;
   }
   .subtitle {
