@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { useLanguage, languages } from '../../contexts/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
+import { languages } from '../../config/languages';
 
 export const LanguageSwitcher = () => {
   const { currentLanguage, changeLanguage } = useLanguage();

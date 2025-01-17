@@ -23,7 +23,7 @@
   }
 
   body {
-    @apply text-body bg-primary font-primary leading-relaxed text-white;
+    @apply bg-primary font-primary text-body leading-relaxed text-white;
   }
 
   h1 {
@@ -43,7 +43,7 @@
   }
 
   section {
-    @apply py-section px-8;
+    @apply px-8 py-section;
   }
 
   :focus {

@@ -1,5 +1,5 @@
 import Button from '../Button/Button';
-import { useLanguage } from '../../contexts/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
 import ProjectList from '../ProjectList/ProjectList';
 import projectsArray from '../../assets/projects/projects';
 

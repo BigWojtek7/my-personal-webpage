@@ -1,4 +1,4 @@
-import { useLanguage } from '../../contexts/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
 
 function ProjectList({ projects }) {
   const { currentLanguage } = useLanguage();

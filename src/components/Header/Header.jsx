@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { useLanguage } from '../../contexts/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
 import { LanguageSwitcher } from '../LanguageSwitcher/LanguageSwitcher';
 
 const Header = () => {

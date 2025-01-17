@@ -3,7 +3,7 @@ import ProjectIndividual from '../../components/ProjectIndividual/ProjectIndivid
 import projectsArray from '../../assets/projects/projects';
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
-import { useLanguage } from '../../contexts/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
 
 function PortfolioItem() {
   useEffect(() => {

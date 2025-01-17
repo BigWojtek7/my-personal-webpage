@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import projectsArray from '../../assets/projects/projects';
-import { useLanguage } from '../../contexts/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
 import ProjectList from '../ProjectList/ProjectList';
 
 function MyWork() {

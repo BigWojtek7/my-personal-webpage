@@ -1,6 +1,6 @@
 import Button from '../Button/Button';
 import clsx from 'clsx';
-import { useLanguage } from '../../contexts/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
 
 function About() {
   const { currentLanguage } = useLanguage();

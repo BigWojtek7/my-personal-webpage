@@ -1,7 +1,7 @@
 import Button from '../Button/Button';
 import ServiceCard from './ServiceCard';
 import clsx from 'clsx';
-import { useLanguage } from '../../contexts/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
 
 function MyServices() {
   const { currentLanguage } = useLanguage();

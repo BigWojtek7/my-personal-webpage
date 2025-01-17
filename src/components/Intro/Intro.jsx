@@ -1,4 +1,4 @@
-import { useLanguage } from '../../contexts/LanguageContext';
+import { useLanguage } from '../../hooks/useLanguage';
 
 function Intro({ name, imageSrc, imageAlt, style, title }) {
   const { currentLanguage } = useLanguage();
