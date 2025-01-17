@@ -37,5 +37,42 @@ export const en = {
     title: 'My Projects',
     subtitle: 'My Selected Projects',
     viewProject: 'View Project',
+    projects: {
+      friendsBook: {
+        id: 'friendsbook',
+        name: 'The friendsBook',
+        subtitle: 'React + NodeJS + SQL',
+        intro:
+          'Mini facebook project in React and NodeJS with PostGreSQL database',
+        body: 'Ability to create your account and add friends. Authentification with JWT token and passport. Database support with PostgreSQL without any OMD in SQL query training: Client-side React and responsive CSS layout in the CSS module.',
+        ending:
+          'This project taught me a lot when it comes to SQL and working with node passport for user authentication',
+      },
+      blog: {
+        id: 'blog',
+        name: 'The blog API',
+        subtitle: 'React + NodeJS + SQL',
+        intro:
+          'A blog application built as part of The Odin Project curriculum.',
+        body: 'This web app allows users to view posts and, if logged in, comment on them. Admin users have additional permissions to add and delete posts, as well as delete comments. This is my model project, fully typed with TypeScript, where I focused on writing robust, maintainable code.',
+        ending:
+          'I also took application testing very seriously to ensure high-quality and reliable functionality.',
+      },
+      portfolio: {
+        id: 'portfolio',
+        name: 'My personal webpage',
+        subtitle: 'React + CSS Modules',
+        intro:
+          'My Personal Webpage is a fully responsive website showcasing my portfolio, projects, and professional journey.',
+        body: "Built with HTML, CSS, and JavaScript, it includes an elegant and clean design focused on accessibility and user experience. The site highlights my skills, recent work, and the technologies I've mastered in web development. A contact form allows visitors to reach out directly, and the project pages provide detailed information on each project, including images, descriptions, and links to live demos or GitHub repositories.",
+        ending:
+          'Through this site, I aim to present my expertise in front-end development and my continuous learning journey.',
+      },
+    },
+    buttons: {
+      frontend: 'Frontend',
+      backend: 'Backend',
+      live: 'Live',
+    },
   },
 };

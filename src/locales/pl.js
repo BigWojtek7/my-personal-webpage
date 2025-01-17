@@ -36,5 +36,41 @@ export const pl = {
     title: 'Moje Projekty',
     subtitle: 'Wybrane Projekty',
     viewProject: 'Zobacz projekt',
+    projects: {
+      friendsBook: {
+        id: 'friendsbook',
+        name: 'The friendsBook',
+        subtitle: 'React + NodeJS + SQL',
+        intro:
+          'Mini projekt typu facebook w React i NodeJS z bazą danych PostgreSQL',
+        body: 'Możliwość utworzenia konta i dodawania znajomych. Uwierzytelnianie za pomocą tokena JWT i passport. Obsługa bazy danych PostgreSQL bez ORM w celu treningu zapytań SQL. Frontend w React z responsywnym layoutem w CSS Modules.',
+        ending:
+          'Ten projekt nauczył mnie wiele w zakresie SQL i pracy z uwierzytelnianiem użytkowników za pomocą node passport',
+      },
+      blog: {
+        id: 'blog',
+        name: 'The blog API',
+        subtitle: 'React + NodeJS + SQL',
+        intro: 'Aplikacja blogowa zbudowana w ramach kursu The Odin Project.',
+        body: 'Ta aplikacja webowa pozwala użytkownikom przeglądać posty i, po zalogowaniu, komentować je. Administratorzy mają dodatkowe uprawnienia do dodawania i usuwania postów oraz usuwania komentarzy. To mój modelowy projekt, w pełni napisany w TypeScript, gdzie skupiłem się na tworzeniu solidnego, łatwego w utrzymaniu kodu.',
+        ending:
+          'Położyłem również duży nacisk na testowanie aplikacji, aby zapewnić wysoką jakość i niezawodność funkcjonalności.',
+      },
+      portfolio: {
+        id: 'portfolio',
+        name: 'Moja strona osobista',
+        subtitle: 'React + CSS Modules',
+        intro:
+          'Moja strona osobista to w pełni responsywna witryna prezentująca moje portfolio, projekty i zawodową podróż.',
+        body: 'Zbudowana w HTML, CSS i JavaScript, zawiera elegancki i przejrzysty design skupiony na dostępności i doświadczeniu użytkownika. Strona prezentuje moje umiejętności, ostatnie prace i technologie, które opanowałem w tworzeniu stron internetowych. Formularz kontaktowy pozwala odwiedzającym na bezpośredni kontakt, a strony projektów zawierają szczegółowe informacje o każdym projekcie, w tym zdjęcia, opisy i linki do wersji live lub repozytoriów GitHub.',
+        ending:
+          'Poprzez tę stronę chcę zaprezentować moje umiejętności w zakresie front-end developmentu i moją ciągłą podróż w nauce.',
+      },
+    },
+    buttons: {
+      frontend: 'Frontend',
+      backend: 'Backend',
+      live: 'Live',
+    },
   },
 };

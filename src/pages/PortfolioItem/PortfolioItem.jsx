@@ -11,12 +11,11 @@ function PortfolioItem() {
   }, []);
 
   const { projectid } = useParams();
-  console.log(projectsArray[0].id === +projectid);
 
   const [project] = projectsArray.filter(
     (project) => +projectid === project.id
   );
-  console.log(project);
+
   return (
     <>
       <Intro
@@ -28,9 +27,7 @@ function PortfolioItem() {
         imageAlt={project.image_screenshot.image_alt}
       />
       <ProjectIndividual
-        descriptionIntro={project.description.intro}
-        descriptionBody={project.description.body}
-        descriptionEnding={project.description.ending}
+        id={projectid}
         imageUrl={project.image_details.image_url}
         imageAlt={project.image_details.image_alt}
         githubUrl={project.github_url}
