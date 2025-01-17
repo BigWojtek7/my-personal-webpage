@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { useLanguage } from '../../contexts/LanguageContext';
+import { LanguageSwitcher } from '../LanguageSwitcher/LanguageSwitcher';
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const { currentLanguage } = useLanguage();
 
   const toggleMenu = () => {
     setIsNavOpen(!isNavOpen);
@@ -12,12 +15,20 @@ const Header = () => {
     setIsNavOpen(false);
   };
 
+  const navItems = [
+    { to: '/#home', text: currentLanguage.translations.nav.home },
+    { to: '/#services', text: currentLanguage.translations.nav.services },
+    { to: '/#about', text: currentLanguage.translations.nav.about },
+    { to: '/#work', text: currentLanguage.translations.nav.portfolio },
+  ];
+
   return (
     <header className="h-16 bg-footer px-6 pt-3" id="home">
-      <div>
+      <div className="flex items-center justify-between">
         <Link className="text-2xl text-inherit no-underline" to="/">
           <p className="p-0 font-secondary">&lt;BigWojtek7&gt;</p>
         </Link>
+        <LanguageSwitcher />
       </div>
 
       <button
@@ -38,12 +49,7 @@ const Header = () => {
         className={`duration-250 fixed inset-0 z-40 bg-footer text-white transition-transform ease-[cubic-bezier(0.5,0,0.5,1)] ${isNavOpen ? 'translate-x-0' : 'translate-x-full'} `}
       >
         <ul className="m-0 flex h-full list-none flex-col items-center justify-evenly p-0">
-          {[
-            { to: '/#home', text: 'Home' },
-            { to: '/#services', text: 'What I do' },
-            { to: '/#about', text: 'About me' },
-            { to: '/#work', text: 'My Portfolio' },
-          ].map((item) => (
+          {navItems.map((item) => (
             <li key={item.text}>
               <Link
                 to={item.to}

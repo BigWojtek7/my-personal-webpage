@@ -1,12 +1,16 @@
 import { Link } from 'react-router-dom';
 import projectsArray from '../../assets/projects/projects';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 function MyWork() {
+  const { currentLanguage } = useLanguage();
+  const { translations } = currentLanguage;
+
   return (
     <section className="bg-white text-center" id="work">
-      <h2 className="text-primary">My projects</h2>
+      <h2 className="text-primary">{translations.portfolio.title}</h2>
       <p className="mb-8 text-2xl font-black text-accent">
-        My selected projects
+        {translations.portfolio.subtitle}
       </p>
       <div className="mx-auto grid max-w-4xl grid-cols-[repeat(auto-fill,minmax(250px,1fr))]">
         {projectsArray.map((project) => (
