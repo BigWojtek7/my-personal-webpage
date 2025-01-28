@@ -38,6 +38,16 @@ export const pl = {
     subtitle: 'Wybrane Projekty',
     viewProject: 'Zobacz projekt',
     projects: {
+      eshop: {
+        id: 'eshop',
+        name: 'E-Shop',
+        subtitle: 'Next + Tailwind + SQL',
+        intro:
+          'E-Shop to nowoczesna aplikacja e-commerce zbudowana przy użyciu Next.js, oferująca możliwości renderowania po stronie serwera.',
+        body: 'Projekt wykorzystuje TypeScript, aby zapewnić bezpieczeństwo typów i poprawić utrzymanie kodu. Tailwind CSS jest używany do efektywnego i responsywnego stylowania interfejsu użytkownika. NextAuth obsługuje bezpieczną uwierzytelnianie i autoryzację użytkowników. Prisma działa jako ORM, upraszczając interakcje z bazą danych PostgreSQL. Aplikacja zawiera koszyk, w którym użytkownicy mogą dodawać, aktualizować lub usuwać przedmioty. Zamówienia są przetwarzane bezproblemowo i przechowywane w bazie danych PostgreSQL w celu ich śledzenia.',
+        ending:
+          'Platforma pozwala użytkownikom przeglądać historię zamówień i zarządzać swoimi profilami, w tym aktualizować awatary. Responsywny design zapewnia optymalne użytkowanie zarówno na urządzeniach mobilnych, jak i stacjonarnych.',
+      },
       friendsBook: {
         id: 'friendsbook',
         name: 'The friendsBook',

@@ -1,6 +1,6 @@
 import { useLanguage } from '../../hooks/useLanguage';
 
-function Intro({ name, imageSrc, imageAlt, style, title }) {
+function Intro({ name, imageSrc, imageAlt, style, title, subtitle }) {
   const { currentLanguage } = useLanguage();
   const { translations } = currentLanguage;
 
@@ -15,7 +15,7 @@ function Intro({ name, imageSrc, imageAlt, style, title }) {
           <strong className="block">{name}</strong>
         </h1>
         <p className="m-0 mb-4 inline-block bg-accent px-4 py-1 text-xl uppercase sm:relative sm:-left-6 sm:col-start-[-1] sm:col-end-1 sm:row-start-2 sm:w-[calc(100%+1.5em)] sm:self-start sm:text-right">
-          {translations.intro.subtitle}
+          {subtitle || translations.intro.subtitle}
         </p>
         <img
           className="sm: min-w-64 shadow-lg shadow-black/50 sm:relative sm:z-10 sm:col-start-1 sm:row-span-2 sm:row-start-1"
