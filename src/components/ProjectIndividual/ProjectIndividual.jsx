@@ -12,7 +12,7 @@ function ProjectIndividual({ id, imageUrl, imageAlt, githubUrl, liveUrl }) {
   const translatedProject = translatedProjects[0];
 
   return (
-    <div className="w-full bg-white text-primary">
+    <div className="w-full bg-bgLight text-primary">
       <div className="mx-auto max-w-5xl px-8 py-8">
         <p>{translatedProject.description.intro}</p>
         <img src={imageUrl} alt={imageAlt} />

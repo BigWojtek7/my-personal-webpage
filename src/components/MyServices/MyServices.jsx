@@ -8,7 +8,7 @@ function MyServices() {
   const { translations } = currentLanguage;
 
   return (
-    <section className="bg-white text-center text-primary" id="services">
+    <section className="bg-bgLight text-center text-primary" id="services">
       <h2
         className={clsx(
           'text-accent',

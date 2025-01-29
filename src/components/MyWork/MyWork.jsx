@@ -9,7 +9,7 @@ function MyWork() {
   const translatedProjects = ProjectList({ projects: projectsArray });
 
   return (
-    <section className="bg-white text-center" id="work">
+    <section className="bg-bgLight text-center" id="work">
       <h2 className="text-primary">{translations.portfolio.title}</h2>
       <p className="mb-8 text-2xl font-black text-accent">
         {translations.portfolio.subtitle}
