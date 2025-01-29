@@ -12,31 +12,33 @@ function ProjectIndividual({ id, imageUrl, imageAlt, githubUrl, liveUrl }) {
   const translatedProject = translatedProjects[0];
 
   return (
-    <div className="mx-auto max-w-5xl px-8 py-8">
-      <p>{translatedProject.description.intro}</p>
-      <img src={imageUrl} alt={imageAlt} />
-      <p>{translatedProject.description.body}</p>
-      <p>{translatedProject.description.ending}</p>
+    <div className="w-full bg-white text-primary">
+      <div className="mx-auto max-w-5xl px-8 py-8">
+        <p>{translatedProject.description.intro}</p>
+        <img src={imageUrl} alt={imageAlt} />
+        <p>{translatedProject.description.body}</p>
+        <p>{translatedProject.description.ending}</p>
 
-      <p className="text-center font-black">GitHub links:</p>
-      <div className="mx-auto flex max-w-lg flex-wrap justify-center gap-4">
-        <Button
-          url={githubUrl.frontend}
-          isNewTab={true}
-          style={{ textAlign: 'center' }}
-        >
-          {translations.portfolio.buttons.frontend}
-        </Button>
-        <Button
-          url={githubUrl.backend}
-          isNewTab={true}
-          style={{ textAlign: 'center' }}
-        >
-          {translations.portfolio.buttons.backend}
-        </Button>
-        <Button url={liveUrl} isNewTab={true} style={{ textAlign: 'center' }}>
-          {translations.portfolio.buttons.live}
-        </Button>
+        <p className="text-center font-black">GitHub links:</p>
+        <div className="mx-auto flex max-w-lg flex-wrap justify-center gap-4">
+          <Button
+            url={githubUrl.frontend}
+            isNewTab={true}
+            style={{ textAlign: 'center' }}
+          >
+            {translations.portfolio.buttons.frontend}
+          </Button>
+          <Button
+            url={githubUrl.backend}
+            isNewTab={true}
+            style={{ textAlign: 'center' }}
+          >
+            {translations.portfolio.buttons.backend}
+          </Button>
+          <Button url={liveUrl} isNewTab={true} style={{ textAlign: 'center' }}>
+            {translations.portfolio.buttons.live}
+          </Button>
+        </div>
       </div>
     </div>
   );

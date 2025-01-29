@@ -12,6 +12,7 @@ export default {
       colors: {
         footer: '#2e323f',
         primary: '#3b4050',
+        bgLight: '#c9c9c9',
         accent: '#a59678',
       },
       fontSize: {
